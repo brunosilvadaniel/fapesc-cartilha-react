@@ -1,0 +1,45 @@
+footer{
+  background: #FC6924;
+  text-align: center;
+}
+.contato-span{
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  
+}
+.divisao{
+  height: 800px;
+ 
+
+}
+.Logo-17{
+  width: 50%;
+  margin-bottom: 400px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.two-side{
+  width: 40%;
+  justify-content: center;
+  display: inline-block;
+  text-align: end;
+  margin-right: 100px;
+  margin-top: 50px;
+
+}
+.role-instituicao{
+  justify-content: space-between;
+  text-align: end;
+  display: block;
+  font-weight: 500px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.logo-bairro{
+  margin-right: 70px;
+}
