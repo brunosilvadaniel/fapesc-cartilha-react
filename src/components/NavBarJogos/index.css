@@ -1,8 +1,16 @@
 .NavBarJogos{
+  background-image: url("../../assets/images/NavBarJogos-background.png");
   width: 100%;
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
+}
+.grama{
+  margin: 0 auto;
+  width: 100%;
+  height: 35%;
+  background-image: url("../../assets/images/Grama\ Escaldada.png");
+  background-position: center bottom;
 }
 .titulo{
   margin: 0 auto;
@@ -10,11 +18,11 @@
   color: #DB1465;
   font-size: 50px;
   justify-content: left;
-  width: 65%;
+  width: 58%;
 }
 .Jogos{
   display: flex;
-  width: 65%;
+  width: 58%;
   height: 50%;
   /* background: purple; */
   margin: 0 auto;
@@ -22,8 +30,8 @@
 }
 .Jogo{
   display: flex;
-  width: 24.1%;
-  height: 100%;
+  width: 24.1%; /* width: 24.1%; */
+  height: 250px;/* height: 100%; */
   display: inline-block;
   margin: 0 auto;
 }
@@ -36,12 +44,21 @@
 }
 .jogo-fundo-laranja-escuro{
   background: #FD3921;
+  background-image: url("../../assets/images/Jogo-background-laranja-escuro.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .jogo-fundo-vermelho{
   background: #A21943;
+  background-image: url("../../assets/images/Jogo-background-vermelho.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .jogo-fundo-laranja-claro{
   background: #DDA939;
+  background-image: url("../../assets/images/Jogo-background-laranja-claro.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .jogo-fundo-verde{
   background: #3F8144;
