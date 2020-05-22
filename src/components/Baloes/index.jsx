@@ -6,12 +6,11 @@ export default class Baloes extends Component{
     return(
       <div className="baloes">
         <div className="ceu">
-
+          <div className="bonecos-balao"></div>
+          <div className="grama-cima"></div>
         </div>
-        <div className="grama-cima">
-
+          <div className="grama-baixo">
         </div>  
-
       </div>
     )
   }

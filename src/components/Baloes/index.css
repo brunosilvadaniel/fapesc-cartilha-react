@@ -1,15 +1,45 @@
 .baloes{
   display: flex;
-  height: 1020px;
+  height: 1180px;
   width: 100%;
   flex-direction: column;
 }
 .ceu{
+  display: flex;
+  align-items: center;
   background-color: #C7F3FF;
+  background-image: url('../../assets/images/nuvems.png');
   height: 80%;
   width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bonecos-balao{
+  display: flex;
+  width: 1082px;
+  height: 843px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-image: url('../../assets/images/bonecos-baloes.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  align-items: center;
+  overflow: visible;
+  z-index: 2;
+
+  
 }
 .grama-cima{
+  background-color: #00966E;
+  height: 11%;
+  width: 100%;
+  margin-top: auto;
+}
+.grama-baixo{
   background-color: #00966E;
   height: 20%;
   width: 100%;

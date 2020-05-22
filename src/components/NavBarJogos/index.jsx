@@ -5,7 +5,7 @@ export default class NavBarJogos extends Component{
   render(){
     return(
       <div className="NavBarJogos">
-        <div className="grama"></div>
+        <div className="grama-escorida"></div>
         <h1 className="titulo">Jogos</h1>
         <div className="Jogos">
           <div className="Jogo jogo-fundo-laranja-escuro">
