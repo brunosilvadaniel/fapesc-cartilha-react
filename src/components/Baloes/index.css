@@ -1,0 +1,16 @@
+.baloes{
+  display: flex;
+  height: 1020px;
+  width: 100%;
+  flex-direction: column;
+}
+.ceu{
+  background-color: #C7F3FF;
+  height: 80%;
+  width: 100%;
+}
+.grama-cima{
+  background-color: #00966E;
+  height: 20%;
+  width: 100%;
+}

@@ -47,18 +47,21 @@
   background-image: url("../../assets/images/Jogo-background-laranja-escuro.png");
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: right bottom;
 }
 .jogo-fundo-vermelho{
   background: #A21943;
   background-image: url("../../assets/images/Jogo-background-vermelho.png");
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: right bottom;
 }
 .jogo-fundo-laranja-claro{
   background: #DDA939;
   background-image: url("../../assets/images/Jogo-background-laranja-claro.png");
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: right bottom;
 }
 .jogo-fundo-verde{
   background: #3F8144;
