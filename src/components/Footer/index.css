@@ -1,13 +1,14 @@
 footer{
   background: #FC6924;
   text-align: center;
+  display: flex;
 }
 .contato-span{
+  display: block;
   color: #ffffff;
   font-weight: 500px;
   font-size: 30px;
-  margin-bottom: 10px;
-  
+  padding-bottom: 10px;  
 }
 .divisao{
   height: 800px;
@@ -40,6 +41,6 @@ footer{
   font-size: 30px;
 }
 
-.logo-bairro{
+.img-bairro{
   margin-right: 70px;
 }

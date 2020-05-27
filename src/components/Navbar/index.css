@@ -1,5 +1,5 @@
 
-aside.menu-area {
+.menu-area {
 	background-color: #0398DA;
 	display: block;
 	box-shadow: 2px 0 15px rgba(0, 0, 0, 0.12), 2px 0 15px rgba(0, 0, 0, 0.09);
@@ -10,8 +10,6 @@ aside.menu-area {
 }
 .menu{
 	justify-content: space-between;
-
-
 }
 
 .menu button {
@@ -24,7 +22,6 @@ aside.menu-area {
 	font-size: 30px;
 	border: none;
 	margin: 0px 80px;
-
 }
 .menu button:hover {
 	background: linear-gradient(

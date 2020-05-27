@@ -12,21 +12,23 @@ export default class Footer extends Component{
       <footer className="footer">
         <div className="divisao">
           <div className="Logo-17">
-            <img src={Logo17} alt="Logo-17-formas"/>
+            <img className="img-17" src={Logo17}  alt="Logo-17-formas"/>
           </div>
           <div className="two-side">
             <div className="realizacao">
               <span className="role-instituicao">Realização:</span>
-              <img src={LogoSatc} alt="logo-fapesc"/>
+              <img className="img-satc" src={LogoSatc}  alt="logo-fapesc"/>
             </div>
            <div className="apoio">
               <span className="role-instituicao">Apoio:</span>
-              <img className="logo-bairro"src={LogoBairro} alt="logo-fapesc"/>
-              <img src={LogoFapesc} alt="logo-fapesc"/>
+              <div className="apoiadores">
+                <img className="img-bairro"src={LogoBairro} alt="logo-fapesc"/>
+                <img className="img-fapesc"src={LogoFapesc} alt="logo-fapesc"/>
+              </div>
             </div>
-            <div className="parceiro">
+            <div className="parceiros">
              <span className="role-instituicao">Parceiro:</span>
-             <img src={LogoMovimentoScOds} alt="logo-movimento-sc-ods"/>
+             <img className="img-ODS"src={LogoMovimentoScOds} alt="logo-movimento-sc-ods"/>
            </div>
           </div>
         </div>

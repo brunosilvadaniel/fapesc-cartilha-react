@@ -1,5 +1,4 @@
 body {
-	/* display: flex; */
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
 		'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -10,4 +9,112 @@ body {
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+	body{
+		display: flex;
+	}
+	.baloes{
+		display: flex;
+		height: 880px;
+		width: 100%;
+		flex-direction: column;
+	}
+	.bonecos-balao{
+    display: flex;
+    width: 780px;
+    height: 603px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url('./assets/images/bonecos-baloes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    align-items: center;
+    overflow: visible;
+    z-index: 2;    
+  }
+	.Jogos{
+		width: 92%;
+	}
+	.Jogo{
+		height: 190px;
+		width: 190px;
+
+	}
+	.divisao{
+		height: 800px;
+ 		display: flex;
+		align-items: center;
+  	justify-content: center;
+		margin-bottom: 30px;
+	
+	}
+	.Logo-17{
+		width: 50%;
+		margin: 0 auto;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		
+	}
+	.two-side{
+		width: 40%;
+		justify-content: center;
+		flex-direction: column;
+		display: flex;
+		text-align: end;
+		margin-right: 100px;
+		margin-top: 50px;
+	
+		}
+		.role-instituicao{
+		justify-content: flex-end;
+		display: flex;
+		text-align: end;
+		font-weight: 500px;
+		color: #ffffff;
+		font-size: 30px;
+		margin: 10px 0;
+		}
+		.img-17{
+		margin: 0 auto;
+		width: 80%;
+		}
+		.img-satc{
+			width: 60%;
+		}
+		.img-fapesc{
+			width: 25%;
+			display: flex;
+
+		}
+		.img-bairro{
+		width: 60%;	
+		display: flex;
+		margin-right: 30	px;
+		}
+		.img-ODS{
+			width: 100%;
+		}
+		.apoiadores{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			
+		}
+		.contato-span{
+		display: block;
+		color: #ffffff;
+		font-weight: 500px;
+		font-size: 30px;
+		padding-bottom: 10px;  
+	}
+	.realizacao{
+		justify-content: flex-end;
+	}
+	.parceiros{
+		justify-content: flex-end;
+	}
 }
