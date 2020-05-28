@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-dom'
 import './index.css';
 
 export default class NavBarJogos extends Component{
@@ -8,9 +9,11 @@ export default class NavBarJogos extends Component{
         <div className="grama-escorida"></div>
         <h1 className="titulo">Jogos</h1>
         <div className="Jogos">
-          <div className="Jogo jogo-fundo-laranja-escuro">
-            <h1 className="jogo-titulo ">Jogo da Memoria</h1>
-          </div>
+         
+            <div className="Jogo jogo-fundo-laranja-escuro">
+              <h1 className="jogo-titulo ">Jogo da Memoria</h1>
+            </div>
+          
           <div className="Jogo jogo-fundo-vermelho">
             <h1 className="jogo-titulo ">Quebra Cabeça</h1>
           </div>

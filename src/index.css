@@ -17,14 +17,14 @@ code {
 	}
 	.baloes{
 		display: flex;
-		height: 880px;
+		height: 1250px;
 		width: 100%;
 		flex-direction: column;
 	}
 	.bonecos-balao{
     display: flex;
-    width: 780px;
-    height: 603px;
+    width: 750px;
+    height: 583px;
     margin: 0 auto;
     margin-top: 10px;
     background-image: url('./assets/images/bonecos-baloes.png');
