@@ -15,6 +15,7 @@
 }
 
 .menu button {
+	height: 100%;
 	display: inline-block;
 	text-decoration: none;
 	background-color: #0398DA;
