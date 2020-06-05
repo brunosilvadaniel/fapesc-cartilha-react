@@ -9,7 +9,7 @@
   align-items: center;
   background-color: #C7F3FF;
   background-image: url('../../assets/images/nuvems.png');
-  height: 80%;
+  height: 100%;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,22 +23,109 @@
   height: 843px;
   margin: 0 auto;
   margin-top: 10px;
-  background-image: url('../../assets/images/bonecos-baloes.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-color: orange; */
   position: absolute;
   align-items: center;
   overflow: visible;
   z-index: 2;
-
+}
+.baloes-esquerda{
+  display: flex;
+  flex-direction: column;
+  /* background-color: purple; */
+  width: 50%;
+  height: 100%;
+  align-items: flex-end;
   
 }
-.grama-cima{
+.penca-esquerda{
+  display: flex;
+  width: 70%;
+  height: 50%;
+  margin:  0 auto;
+  flex-direction: column;
+  /* background-color: orange; */
+  
+}
+.linha-3{
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.linha-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ods-box{
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  height:90%;
+  background-color: peru;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+/* .ods-box:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */
+/* .ods-box img{
+  
+  height: 80%;
+  width: 80%;
+} */
+.kid-boy{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  align-items: left;
+  z-index: 3;
+}
+.kid-boy img{
+  height: 120%;
+  width: 90%;
+}
+.baloes-direita{
+  display: flex;
+  flex-direction: column;
+  /* background-color: purple; */
+  width: 50%;
+  height: 100%;
+  align-items: left;
+}
+.penca-direita{
+  display: flex;
+  width: 70%;
+  height: 50%;
+  margin:  0 auto;
+  flex-direction: column;
+  /* background-color: orange; */
+
+}
+.kid-girl{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  align-items: left;
+  z-index: 3;
+}
+.kid-girl img{
+  height: 120%;
+  width: 90%;
+}
+/* .grama-cima{
   background-color: #00966E;
-  height: 11%;
+  height: 1%;
   width: 100%;
   margin-top: auto;
-}
+} */
 .grama-baixo{
   background-color: #00966E;
   height: 20%;

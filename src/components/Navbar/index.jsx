@@ -1,23 +1,27 @@
 import React,{Component} from 'react';
 import './index.css'
+import {NavLink, BrowserRouter} from 'react-router-dom'
 
 
 export default class Navbar extends Component{
   render(){
     return (
+      <BrowserRouter>
       <aside className="menu-area">
         <nav className="menu">
-          <button>
+          <NavLink to="/" className="button-nav" style={{ textDecoration: 'none' }}>
             Os objetivos
-          </button>
-          <button>
+          </NavLink>
+          
+          <NavLink to="/" className="button-nav" style={{ textDecoration: 'none' }}>
             Jogos
-          </button>
-          <button>
+          </NavLink>
+          <NavLink to="/" className="button-nav" style={{ textDecoration: 'none' }}>
             Contato
-          </button>
+          </NavLink>
         </nav>
       </aside>
+      </BrowserRouter>
     )
   }
 };

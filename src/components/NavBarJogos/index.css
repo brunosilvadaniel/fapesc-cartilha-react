@@ -35,6 +35,11 @@
   display: inline-block;
   margin: 0 auto;
 }
+.jogo::after{
+  display: block;
+  content: "";
+  padding-bottom: 100%;
+}
 .jogo-titulo{
   font-weight: 500px;
   color: #ffffff;
