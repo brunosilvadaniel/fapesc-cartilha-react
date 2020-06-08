@@ -11,36 +11,53 @@ footer{
   padding-bottom: 10px;  
 }
 .divisao{
+  display: flex;
   height: 800px;
- 
-
+  flex-direction: column;
+  align-items: center;
 }
 .Logo-17{
+  margin-top: 50px;
   width: 50%;
-  margin-bottom: 400px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  
 }
 .two-side{
-  width: 40%;
-  justify-content: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
   text-align: end;
-  margin-right: 100px;
   margin-top: 50px;
-
 }
 .role-instituicao{
   justify-content: space-between;
-  text-align: end;
+  text-align: center;
   display: block;
   font-weight: 500px;
   color: #ffffff;
   font-size: 30px;
 }
+.realizacao{
+  
+  align-items: center;
+}
+.apoiadores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parceiros{
+  align-items: center;
+}
 
 .img-bairro{
-  margin-right: 70px;
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.img-fapesc{
+  width: 40%;
+  
 }

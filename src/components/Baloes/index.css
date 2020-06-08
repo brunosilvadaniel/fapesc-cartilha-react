@@ -127,7 +127,20 @@
   margin-top: auto;
 } */
 .grama-baixo{
+  display: flex;
   background-color: #00966E;
   height: 20%;
   width: 100%;
+  justify-content: center;
+}
+.mato{
+  display: flex;
+  text-align: center;
+  overflow: visible;
+  width: 60%;
+  height: 120%;
+  margin-bottom: 6.5%;
+  align-self: flex-end;
+
+  
 }

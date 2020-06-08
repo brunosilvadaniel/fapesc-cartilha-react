@@ -3,6 +3,7 @@ import {NavLink, BrowserRouter} from 'react-router-dom'
 import './index.css'
 import boy from '../../assets/pngs/kids/boy.png';
 import girl from '../../assets/pngs/kids/girl.png';
+import mato from '../../assets/pngs/kids/matos.png'
 
 import ods1 from '../../assets/pngs/kids/ODS1.png'
 import ods2 from '../../assets/pngs/kids/ODS2.png'
@@ -114,7 +115,8 @@ export default class Baloes extends Component{
           <div className="grama-cima"></div>
         </div>
           <div className="grama-baixo">
-        </div>  
+            <img src={mato} alt="" className="mato"/>
+          </div>  
       </div>
     )
   }
