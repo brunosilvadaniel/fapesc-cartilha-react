@@ -120,12 +120,13 @@
   height: 120%;
   width: 90%;
 }
-/* .grama-cima{
+.grama-cima{
   background-color: #00966E;
-  height: 1%;
+  height: 12.5%;
   width: 100%;
-  margin-top: auto;
-} */
+  position: absolute;
+  bottom: 1;
+}
 .grama-baixo{
   display: flex;
   background-color: #00966E;
@@ -141,6 +142,5 @@
   height: 120%;
   margin-bottom: 6.5%;
   align-self: flex-end;
-
-  
 }
+

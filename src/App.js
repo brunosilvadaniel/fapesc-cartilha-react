@@ -4,7 +4,6 @@ import Baloes from './components/Baloes/index'
 import NavBarJogos from './components/NavBarJogos/index'
 import Footer from './components/Footer/index'
 
-
 function App() {
   return (
     <div >
