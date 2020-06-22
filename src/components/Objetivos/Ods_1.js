@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link, BrowserRouter} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './Styles.css'
 
 
@@ -8,8 +8,8 @@ export default class Ods_1 extends Component {
     return (
         <div className="envolve-main">
           <div className="envolve-ods">
-            <div className="ods-1-grande"/>
-            <div className="texto-ods">
+            <div className="ods-grande angulo-1"/>
+            <div className="texto-ods texto-color-1">
               <h1>1 - Erradicação da Pobreza</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Pellentesque vulputate leo non sapien porttitor convallis. 
@@ -21,7 +21,7 @@ export default class Ods_1 extends Component {
               </div>
           </div>
           <div className="envolve-button-ods">
-            <Link to="/Home" className="button-ods" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-1" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
           </div>
         </div>
     )

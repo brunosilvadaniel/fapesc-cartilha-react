@@ -7,9 +7,7 @@
   display: flex;
   flex-direction: row;
 }
-.ods-1-grande{
-  background-image: url("../../assets/pngs/kids/ODS1.png");
-  background-color: red;
+.ods-grande{
   background-repeat: no-repeat;
   background-size: 65% 65%;
   background-position: center;
@@ -17,15 +15,149 @@
   height: 22vw;
   border: 20px solid transparent;
   border-radius: 70px;
+}
+.angulo-1{
+  background-color: #E7233B;
   transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS1.png");
+}
+.angulo-2{
+  background-color: #DDA939;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS2.png");
+}
+.angulo-3{
+  background-color: #4AA139;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS3.png");
+}
+.angulo-4{
+  background-color: #C21B2D;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS4.png");
+}
+.angulo-5{
+  background-color: #FD3921;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS5.png");
+}
+.angulo-6{
+  background-color: #21BFE2;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS6.png");
+}
+.angulo-7{
+  background-color: #F5C000;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS7.png");
+}
+.angulo-8{
+  background-color: #A21943;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS8.png");
+}
+.angulo-9{
+  background-color: #FC6924;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS9.png");
+}
+.angulo-10{
+  background-color: #DB1465;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS10.png");
+}
+.angulo-11{
+  background-color: #FD9D24;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS11.png");
+}
+.angulo-12{
+  background-color: #BE8C2D;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS12.png");
+}
+.angulo-13{
+  background-color: #3D7F42;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS13.png");
+}
+.angulo-14{
+  background-color: #009ADA;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS14.png");
+}
+.angulo-15{
+  background-color: #55C12D;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS15.png");
+}
+.angulo-16{
+  background-color: #026A9F;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS16.png");
+}
+.angulo-17{
+  background-color: #1B496B;
+  transform: rotate(-4deg);
+  background-image: url("../../assets/pngs/kids/ODS17.png");
 }
 .texto-ods{
   width: 50%;
   margin-left: 150px;
 }
 .texto-ods h1{
-  color: #E32738;
   font-size: 62px;
+}
+.texto-color-1{
+  color:#E32738
+}
+.texto-color-2{
+  color:#DDA939
+}
+.texto-color-3{
+  color:#4AA139
+}
+.texto-color-4{
+  color:#C21B2D
+}
+.texto-color-5{
+  color:#FD3921
+}
+.texto-color-6{
+  color:#21BFE2
+}
+.texto-color-7{
+  color:#F5C000
+}
+.texto-color-8{
+  color:#A21943
+}
+.texto-color-9{
+  color:#FC6924
+}
+.texto-color-10{
+  color:#DB1465
+}
+.texto-color-11{
+  color:#FD9D24
+}
+.texto-color-12{
+  color:#BE8C2D
+}
+.texto-color-13{
+  color:#3D7F42
+}
+.texto-color-14{
+  color:#009ADA
+}
+.texto-color-15{
+  color:#55C12D
+}
+.texto-color-16{
+  color:#026A9F
+}
+.texto-color-17{
+  color:#1B496B
 }
 .texto-ods p{
   color: #000000;
@@ -40,8 +172,6 @@
 }
 .button-ods{
   background-color: white;
-  color: #E32738;
-  border: 3px solid #E32738;
   border-radius: 20px;
   padding: 13px;
   font-size: 30px;
@@ -50,7 +180,139 @@
   margin-top: 40px;
   margin-left: 70%;
 }
-.button-ods:hover{
+.button-color-1{
+  color: #E32738;
+  border: 3px solid #E32738;
+}
+.button-color-2{
+  color: #DDA939;
+  border: 3px solid #DDA939;
+}
+.button-color-3{
+  color: #4AA139;
+  border: 3px solid #4AA139;
+}
+.button-color-4{
+  color: #C21B2D;
+  border: 3px solid #C21B2D;
+}
+.button-color-5{
+  color: #FD3921;
+  border: 3px solid #FD3921;
+}
+.button-color-6{
+  color: #21BFE2;
+  border: 3px solid #21BFE2;
+}
+.button-color-7{
+  color: #F5C000;
+  border: 3px solid #F5C000;
+}
+.button-color-8{
+  color: #A21943;
+  border: 3px solid #A21943;
+}
+.button-color-9{
+  color: #FC6924;
+  border: 3px solid #FC6924;
+}
+.button-color-10{
+  color: #DB1465;
+  border: 3px solid #DB1465;
+}
+.button-color-11{
+  color: #FD9D24;
+  border: 3px solid #FD9D24;
+}
+.button-color-12{
+  color: #BE8C2D;
+  border: 3px solid #BE8C2D;
+}
+.button-color-13{
+  color: #3D7F42;
+  border: 3px solid #3D7F42;
+}
+.button-color-14{
+  color: #009ADA;
+  border: 3px solid #009ADA;
+}
+.button-color-15{
+  color: #55C12D;
+  border: 3px solid #55C12D;
+}
+.button-color-16{
+  color: #026A9F;
+  border: 3px solid #026A9F;
+}
+.button-color-17{
+  color: #1B496B;
+  border: 3px solid #1B496B;
+}
+.button-color-1:hover{
   background-color: #E32738;
+  color: white;
+}
+.button-color-2:hover{
+  background-color: #DDA939;
+  color: white;
+}
+.button-color-3:hover{
+  background-color: #4AA139;
+  color: white;
+}
+.button-color-4:hover{
+  background-color: #C21B2D;
+  color: white;
+}
+.button-color-5:hover{
+  background-color: #FD3921;
+  color: white;
+}
+.button-color-6:hover{
+  background-color: #21BFE2;
+  color: white;
+}
+.button-color-7:hover{
+  background-color: #F5C000;
+  color: white;
+}
+.button-color-8:hover{
+  background-color: #A21943;
+  color: white;
+}
+.button-color-9:hover{
+  background-color: #FC6924;
+  color: white;
+}
+.button-color-10:hover{
+  background-color: #DB1465;
+  color: white;
+}
+.button-color-11:hover{
+  background-color: #FD9D24;
+  color: white;
+}
+.button-color-12:hover{
+  background-color: #BE8C2D;
+  color: white;
+}
+.button-color-13:hover{
+  background-color: #3D7F42;
+  color: white;
+}
+.button-color-14:hover{
+  background-color: #009ADA;
+  color: white;
+}
+.button-color-15:hover{
+  background-color: #55C12D;
+  color: white;
+}
+.button-color-16:hover{
+  background-color: #026A9F;
+  color: white;
+}
+.button-color-17:hover{
+  background-color: #1B496B;
   color: white;
 }

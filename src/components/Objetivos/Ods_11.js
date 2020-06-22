@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom'
 import './Styles.css'
 
 
-export default class Ods_5 extends Component {
+export default class Ods_11 extends Component {
   render() {
     return (
         <div className="envolve-main">
           <div className="envolve-ods">
-            <div className="ods-grande angulo-5"/>
-            <div className="texto-ods texto-color-5">
-              <h1>5 - Erradicação da Pobreza</h1>
+            <div className="ods-grande angulo-11"/>
+            <div className="texto-ods texto-color-11">
+              <h1>11 - Erradicação da Pobreza</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Pellentesque vulputate leo non sapien porttitor convallis. 
                 Aliquam efficitur augue in odio ultricies, vehicula ullamcorper enim suscipit. 
@@ -21,7 +21,7 @@ export default class Ods_5 extends Component {
               </div>
           </div>
           <div className="envolve-button-ods">
-            <Link to="/Home" className="button-ods button-color-5" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-11" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
           </div>
         </div>
     )
