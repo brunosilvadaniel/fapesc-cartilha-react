@@ -1,0 +1,56 @@
+.envolve-ods{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  color: red;
+  margin-top: 12%;
+  display: flex;
+  flex-direction: row;
+}
+.ods-1-grande{
+  background-image: url("../../assets/pngs/kids/ODS1.png");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: 65% 65%;
+  background-position: center;
+  width: 22vw;
+  height: 22vw;
+  border: 20px solid transparent;
+  border-radius: 70px;
+  transform: rotate(-4deg);
+}
+.texto-ods{
+  width: 50%;
+  margin-left: 150px;
+}
+.texto-ods h1{
+  color: #E32738;
+  font-size: 62px;
+}
+.texto-ods p{
+  color: #000000;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.envolve-button-ods{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.button-ods{
+  background-color: white;
+  color: #E32738;
+  border: 3px solid #E32738;
+  border-radius: 20px;
+  padding: 13px;
+  font-size: 30px;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 70%;
+}
+.button-ods:hover{
+  background-color: #E32738;
+  color: white;
+}
