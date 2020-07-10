@@ -17,7 +17,7 @@ export default class Navbar extends Component{
             Jogos
           </Link>
           <Link to="/" className="button-nav" style={{ textDecoration: 'none' }}>
-            Contato
+            Sobre nos
           </Link>
         </nav>
       </aside>
