@@ -6,13 +6,12 @@ footer{
 .contato-span{
   display: block;
   color: #ffffff;
-  font-weight: 500px;
   font-size: 30px;
   padding-bottom: 10px;  
 }
 .divisao{
   display: flex;
-  height: 800px;
+  height: 680px;
   flex-direction: column;
   align-items: center;
 }
@@ -40,24 +39,35 @@ footer{
   font-size: 30px;
 }
 .realizacao{
-  
-  align-items: center;
-}
-.apoiadores{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.apoiadores{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .parceiros{
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-
 .img-bairro{
   margin-top: 20px;
-  width: 80%;
+  width: 35%;
   margin-bottom: 20px;
 }
 .img-fapesc{
-  width: 40%;
-  
+  width: 20%;
+  margin-left: 5%; 
+}
+.img-satc{
+  width: 70%;
+}
+.img-ODS{
+  width: 60%;
 }

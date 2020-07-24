@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 17
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Participar de associaçoes, conselhos e organizações socias','Elaborar projetos socias e ir atrás de fontes de financiamento coletivo']
+const secondTopic = ['Realizar parceirias com as partes interessadas','Adotar os Princípios da Gestão Empresarial Responsável - PRME','Criar bancos de projetos socias para atuar em áreas mais pobres','Adotar os Princípios do Pacto Global','Participar do Movimento Nós Podemos em prol dos ODS']
+const thirdTopic = ['Realizar programas de Responsabilidade Social Corporativa']
+const fourthTopic = ['Buscar realizar parceirias com vários atores sociais','Buscar recurosos para capacitação, tecnologia e outros investimentos para o desenvolvimentos local sutentável','Reduzir a dívida dos municípios','Aumentar a colaboração ODS']
 
 export default class Ods_17 extends Component {
   render() {

@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 10
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Ensinar em casa cidadania e solidariedade para os filhos','Doar alimentos, roupas e outros bens para a população pobre','Destinar Imposto devido para Projetos Sociais - Pessoas Física']
+const secondTopic = ['Garantir a igualdade de oportunidade para as pessoas','Adotar as plataformas da ONU: Pacto Global e PRME','Promover o voluntariado corporativo','Implantar programas de carreiras e salário justos','Patrocinar a educação de jovens que vivem na periferia','Aumentar o Investimento Social Privado','Destinar impostos para Projetos Sociais - Pessoas Jurídica']
+const thirdTopic = ['Participar como voluntariado em Projetos Sociais','Desenvolver pesquisas e estudos sobre a realidade social']
+const fourthTopic = ['Investir na infraestrutura das periferias','Recuperar as estradas do seu municipio','Realizar campanhas de melhor uso de nossas estradas, parques academias ao ar livre e demais instalações de equipamentos públicos','Promover a Gestão Participativa','Incluir mulheres e idosos na era digital','Promover os direitos dos imigrantes e de outras minorias']
 
 export default class Ods_10 extends Component {
   render() {

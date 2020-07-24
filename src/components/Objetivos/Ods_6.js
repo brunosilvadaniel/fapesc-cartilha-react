@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 6
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Reusar a água sempre que possível, mas cuidando de sua preservação e aplicação que é restita','Conhecer a origem da água, os processos de tratamento e distribuição, e destinação final depois de usada.','Reparar vazamentos ou comunicar a empresa responsável.','Calcular a Pegada Hídrica de produtos e serviços para uma escolha consciente, pricipalmente pensando na idéia de rejeitar']
+const secondTopic = ['Implatar programas de racionalização do uso da água.']
+const thirdTopic = ['Repensar o uso: racionalizar sempre que possível hábitos de consumo no cotidiano.','Reaproveitar a água da chuva','Estimular o uso de aplicativos como whatsApp para redução de consumo']
+const fourthTopic = ['Promover permanentemente debate sobre o consumo consciente da água.','Tratar sobre sua aplicação na agricultura, indústria e demais setores da economia.','Preservar ou revitalizar todo o sistema hídrico(rios e nascentes)']
 
 export default class Ods_6 extends Component {
   render() {

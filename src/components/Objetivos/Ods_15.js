@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 15
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Reduzir a pegada ecológica individual','Comprar produtos orgânicos','Reduzir o consumo de carne vermelha','Plantar um, duas, três, quatro árvores','Não compre animais silvestres e denuncie quem o faz']
+const secondTopic = ['Plantar árvores nas beiras dos rios','Realizar campanhas sobre a importância da Biodiversidade','Realizar atividades voluntárias','Estimular o uso de aplicativos como whatsApp para proteção dos parques municipais']
+const thirdTopic = ['Comprar paple reciclado','Fomentar a compra de matérias primas certificadas','Instalar equipamentos menos poluentes']
+const fourthTopic = ['Valoriazar os saberes locais e as comunidades indígenas','Reduzir o uso de agrotóxios nas lavouras','Incentivar a cultura de rotação no plantio agrícoala','Implantar projetos para redução da desertificação e a degradação dos solos','Reduzir as espécies invasoras e exóticas','Reduzir o desmatamento','Reduzir a geração de resíduos']
 
 export default class Ods_15 extends Component {
   render() {

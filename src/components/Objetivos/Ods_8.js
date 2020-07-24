@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 8
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Realizar cursos à distância de aperfeiçoamento profissional','Gerar empregos decentes','Aumentar a produtividade individual','Aumentar a confiança entre os moradores do município']
+const secondTopic = ['Promover a educação para o empreendedorismo','Criar emrpesas juniores','Criar bolsas de estágios para os acadêmicos','Estimular o uso de aplicativos como whatsApp para divulgação de vagas']
+const thirdTopic = ['Aumentar a produtividade das empresas','Promover concursos internos em locais que estimulem o debate e a sensibilização individual sobre o desenvolvimento sustentável e a importância da colaboração de cada um','Incentivar a criação de startups em áreas competitivas']
+const fourthTopic = ['Desenvolver a cultura de empreendeorismo nas universidades de negócios','Incluir a Pessoa com Deficiência - PcD no mercado de trabalho','Apoiar progrmas de geração de novas oportunidades de absorção e recrutamentos de jovens nas pequenas e médias empresas']
 
 export default class Ods_8 extends Component {
   render() {

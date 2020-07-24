@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 2
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Plantar a sua própria horta e participar da construção de hortas comunitárias','Participar da Pastoral da Criança e outros movimentos em prol da alimentação','Doar alimentos para pessoas carentes','Reduzir o desperdício de alimentos']
+const secondTopic = ['Incentivar programas de apoio à merenda escolar e educação alimentar','Ensinar organizações socias e familiares a aproveitarem melhor os alimentos, evitando o desperdício','Criar cursos de exntesão sobre Nutrição']
+const thirdTopic = ['Aumentar a produçaõ de alimentos saudáveis','Reduzir os preços dos alimentos nutritivos','Instalar refeitórios nas empresas','Fornecer refeições para os colaboradores']
+const fourthTopic = ['Implantar restarurantes populares(de baixo preço)','Estimular a agricultura familiar e comunitaria de subsistência','Comprar produtos da agricultura familiar','Capacitar a mão-de-obra na elaboração de alimentos básicos','Fazer camapanha sobre alimentação saudável','Divulgar ações que promovam a segurança alimentar']
 
 
 export default class Ods_2 extends Component {

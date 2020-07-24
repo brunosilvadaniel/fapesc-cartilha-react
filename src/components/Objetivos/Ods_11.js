@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 11
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Participar de conselhos de segurança nas Cidades','Proteger o patrimônio cultural do município (igreja, monumentos e outros)','Reduzir o uso de automóvel, pegar carona solidária, bicicleta e outros meios de transportes','Promover a criação ou a manutenção das associações de bairros']
+const secondTopic = ['Realizar campanhas sobre trânsito seguro nas escolas e universidades','Apoiar iniciativas na implementação de práticas ambientais ustentáveis','Disseminar o Estatuto das Cidades e o Plano Diretor do município','Adotar os Princípios da Educação Empresarial Responsável - PRME']
+const thirdTopic = ['Comprar a matéria prima de locais mais próximos da planta industrial','Instalar novas unidades da empresa em municípios de baixo IDH']
+const fourthTopic = ['Aumentar a acessibilidade dos idosos aos equipamentos públicos','Promover a cidadania nas comunidades','Aumentar a destinação de impostos para projetos sociais','Desenvolver projetos visando a regularização fundiária','Melhorar a infraestrutura das regiões metropolitanas','Estrutara programas que mantenham o homem no campo','Estimular o uso de aplicativos como whatsApp para mapear os locais de maior ocorrência de acidentes de trânsito, de assltos e outros']
 
 export default class Ods_11 extends Component {
   render() {

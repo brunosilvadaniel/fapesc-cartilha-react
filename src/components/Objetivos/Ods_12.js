@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 12
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Doar alimentos e reduzir o desperdício','Reduzir o uso de embalagens','Evirar a troca de celulares frequentemente','Utilizar sacola de pano para as compras','Optar por produtos com refil']
+const secondTopic = ['Ensinar ler rótulos dos alimentos, principalmente escolhendo os alimentos com menos sódio, gordura totais e saturadas, carboidratos e outros elementos que em execesoo são nocivos a saúde','Promover a educação financeira para reduzir o endividamento da populção','Promover oficinas de aproveitamento de materias para confecção de artesanato'] 
+const thirdTopic = ['Participar de programas de mobilização coletiva para estímulo à reciclagem e reutilização de metariais','Realizar ações de sensibilização para a diminuição do consumo e separação de resíduos(4Rs - Reduzir, reutilizar, reciclar e recuperar)','Adotar os princípios do Pacto Global','Implantar a logística reversa','Conhecer e respeitar o código dos consumidor','Reduzir o uso de agrotóxicos no plantio de alimentos','Reduzir o consumo de copinhos plásticos na empresa'] 
+const fourthTopic = []
 
 export default class Ods_12 extends Component {
   render() {

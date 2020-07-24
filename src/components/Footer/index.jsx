@@ -17,13 +17,17 @@ export default class Footer extends Component{
           <div className="two-side">
             <div className="realizacao">
               <span className="role-instituicao">Realização:</span>
-              <img className="img-satc" src={LogoSatc}  alt="logo-fapesc"/>
+             
+              <img className="img-satc" src={LogoSatc}  alt="logo-satc"/>
+            
             </div>
            <div className="apoio">
               <span className="role-instituicao">Apoio:</span>
               <div className="apoiadores">
-                <img className="img-bairro"src={LogoBairro} alt="logo-fapesc"/>
+                <img className="img-bairro"src={LogoBairro} alt="logo-bairro"/>
+                
                 <img className="img-fapesc"src={LogoFapesc} alt="logo-fapesc"/>
+               
               </div>
             </div>
             <div className="parceiros">

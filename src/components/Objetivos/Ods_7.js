@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 7
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Comprar eletrodomésticos e equipamentos mais eficientes','Reduzir o consumo de energia','Trocar lâmpadas incandescentes por fluorescentes ou LEDs','Desligar o computador e outros equipamentos na modalidade stand by','Melhorar a eficiência energética']
+const secondTopic = ['Desenvolver linhas de pesquisas em torno da utilização de energias renováveis','Promover concursos internos ou locais que estimulem o debate','Sensibilização sobre meio ambiante e a importância do papel de cada um','Estimular o uso de aplicativos como whatsApp para redução de consumo de energia']
+const thirdTopic = ['Divulgar as orientações sobre o consumo consciente','Dimensionar correntamente os cabos e fios para os equipamentos','Analisar o contrato de fornecimento com a concessionária de distribuição','Verificar a Modalidade Tarifária']
+const fourthTopic = ['Usar lâmpadas, luminárias e equipamentos auxiliares de grande eficiência luminosa na iluminção pública','Utilizar equipamentos eficientes(lâmpadas, equipamentos de ar condicionado, motores, etc) nos prédios públicos','Orientar o quadro funcional sobre o consumo consciente']
 
 export default class Ods_7 extends Component {
   render() {

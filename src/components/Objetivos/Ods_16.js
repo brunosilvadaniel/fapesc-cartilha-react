@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 16
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Ser voluntário!','Realizar palestra sobre o relacionamento entre pais e filhos visando aumentar o vinculo familiar','Participar de espaços como Conselho Tutelar e Conselhor de Direitos de sua comunidade','Realizar camapanhas de cultura da paz','Ligar para 180 e denunciar caos de violência contra a mulher']
+const secondTopic = ['Criar brigadas para fomentar o voluntariado na Defesa Civil','Promover palestra sobre a questão da violência no trânsito, doméstia e outras']
+const thirdTopic = ['Realizar atividades de prevenção à violência contra ciranças e adolescentes','Realizar campanhas de sensibilização e combate á violência doméstica, abuso sexual e tráfico humano','Realizar Juizados Mirins e outras ações de Educação as Leis']
+const fourthTopic = ['Realizar camapanhas de desarmamento','Criar aplicativos de áreas inseguras no seu município','Combatenre a corrupção em todos os níveis','Promover o acesso a espaço cultural e artístico para a população jovem','Apoiar o funcionamento ou instalação de um Centro de Ação Voluntária na sua cidade']
 
 export default class Ods_16 extends Component {
   render() {

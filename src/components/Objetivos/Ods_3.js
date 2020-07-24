@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 3
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Amamentar os filhos','Participar da Pastoral da Criança','Ensinar a fazer papinha','Vacniar as crianças e acompanhar a saúde dos filhos']
+const secondTopic = ['Incluir os atos de higiene na educação das crianças','Realizar palestras de prevenção a acidentes domésticos']
+const thirdTopic = ['Criar espaços para as mulheres amamentarem seus filhos','Apoiar o trabalho da Pastoral da Criança e outras instituições que trabalham em prol do desenvolvimento infantil','Promover a prevenção sobre as diferentes formas de violência contra a criança']
+const fourthTopic = ['Realizar programas de acesso a água potável para populações carentes','Promover palestras sobre os cuidados com o recém-nascido','Conscientizar sobre a importância do exmae pré-natal e das vacinações do bebê','Incentival programas educacionais, em comunidades carentes, de esclarecimento sobre higiene pessoal e sanitaria, alimentamento materno e nutrição infantil']
 
 export default class Ods_3 extends Component {
   render() {

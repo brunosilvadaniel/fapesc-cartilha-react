@@ -5,10 +5,10 @@ import AlertDialog from './Dialog'
 
 const number = 5
 
-const firstTopic = ['1111111','12222222','13333333','14444444']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const firstTopic = ['Valorizar o trabalho doméstico','Votar no gênero feminio nas eleições em todos níveis','Criar oportunidades de inserção de mão-de-obra femina em atividades alternativas consideradas masculinas','Comuniar uma situação de violência 180']
+const secondTopic = ['Incluir  a valorização do trabalho da mulher em programas de diversidade','Implantar programas de capacitação e melhoria na qualificação das mulheres']
+const thirdTopic = ['Sensibilizar mulheres a assumirem postos de trabalho geralmente ocupados por homens','Promever palestras sobre autoestima, gestão de carreira']
+const fourthTopic = ['Promover a formação política para as adolescentes e mulheres','Promover uma feira das profissões valorizando o papel da mulher na sociedade','Valorizar ações comunitárias que envolvam o trabalho feminino, apoiando iniciativas que promovam o cooperativismo e auto sustentação','Apoiar políticas públicas para atender mulheres negras, de povos indíginas, tradicionais e itinerantes']
 
 export default class Ods_5 extends Component {
   render() {

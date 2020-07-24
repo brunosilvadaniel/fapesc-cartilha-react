@@ -7,9 +7,9 @@ import './Styles.css'
 const number = 1
 
 const firstTopic = ['Incluir pessoas de baixa renda no mercado de trabalho','Capacitar as pessoas para a sua profissionalização','Ser solidário e voluntário em causas socias','Aliar-se a projetos socias e apoiar as organizações não convernamentais']
-const secondTopic = ['2111111','22222222','23333333','24444444']
-const thirdTopic = ['3111111','32222222','33333333','34444444']
-const fourthTopic = ['4111111','42222222','43333333','44444444']
+const secondTopic = ['Participar de ações de extensão universitaría','Participar do projeto Rondon','Fomentar os universitários nas causas socias nas comunidades carentes']
+const thirdTopic = ['Ofertar cursos de empreendedorismo','Fomentar os negócios socias, negócios verdes, solidários e a economia inclusiva','Criar tecnologias mais acessíveis às populações mais pobres']
+const fourthTopic = ['Apoiar a geração alternativa de renda','Fomentar o Microempreendedor Individual - MEI','Empoderar as mulheres que vivem com menos de US$ 1,25 por dia','Buscar fontes de recursos para o desenvolvimento do municipio','Desenvolver novas tecnologias apropriadas e serviços financeiros, incluindo microfinanças']
 
 const texto = 'texto'
 
