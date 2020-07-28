@@ -183,6 +183,10 @@
   margin-bottom: 20px;
   white-space: nowrap;
 }
+.button-ods:focus{
+  outline: none;
+  
+}
 .button-extras{
   background-color: white;
   border-radius: 20px;

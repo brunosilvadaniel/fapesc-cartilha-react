@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
+import React from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-
-import text from '../../assets/resize-icons/ods1.png'
 
 import './Styles.css'
 
@@ -54,8 +50,6 @@ export default function AlertDialog(props) {
   return (
     <div>
       <button  className={styles[props.number - 1].button}onClick={handleClickOpen}>
-      
-      {/* {styles[props.number].button} */}
         Saiba Mais
       </button>
       <Dialog
@@ -66,7 +60,7 @@ export default function AlertDialog(props) {
       >
         <div className="wrap-dialog-header">
           <div id="alert-dialog-title" className="dialog-title" >O Que Você pode fazer para ajudar</div>
-          <img className="img-text" src={text}/>
+          <img className="img-text" src={props.odsIcon} alt="Ods-Icon"style={{backgroundColor: styles[props.number - 1].color}}/>
         </div>
         <DialogContent > 
           <DialogContentText id="alert-dialog-description" >

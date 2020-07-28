@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import './Styles.css'
 import AlertDialog from './Dialog'
+import OdsIcon from '../../assets/resize-icons/ods12.png'
 
 const number = 12
 
@@ -25,7 +26,7 @@ export default class Ods_12 extends Component {
               </div>
           </div>
           <div className="envolve-button-ods">
-          <AlertDialog number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
+          <AlertDialog odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
             <Link to="/Home" className="button-ods button-color-12" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
           </div>
         </div>
