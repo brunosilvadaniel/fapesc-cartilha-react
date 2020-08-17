@@ -1,0 +1,10 @@
+.body{
+  width: 100%;
+}
+.board{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 15px;
+  padding: 10px;
+}

@@ -6,6 +6,10 @@ import Footer from './components/Footer/index'
 import Baloes from './components/Baloes'
 import NavBarJogos from './components/NavBarJogos'
 
+import MemoryGame from './components/games/memoryGame/memoryGame'
+
+import Quiz from './components/games/Quiz/index'
+
 import Ods1 from './components/Objetivos/Ods_1'
 import Ods2 from './components/Objetivos/Ods_2'
 import Ods3 from './components/Objetivos/Ods_3'
@@ -25,10 +29,9 @@ import Ods16 from './components/Objetivos/Ods_16'
 import Ods17 from './components/Objetivos/Ods_17'
 
 
-const Routes = () =>{
-
+export default function Routes(){
     return (
-      <div>
+      <>
         <BrowserRouter>
           <Switch>
             <Route path="/Home" render={props =>
@@ -68,7 +71,7 @@ const Routes = () =>{
               <Ods3/>
             </div>
             }></Route>
-             <Route path="/ods4" render={props =>
+            <Route path="/ods4" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -86,7 +89,7 @@ const Routes = () =>{
               <Ods5/>
             </div>
             }></Route>
-             <Route path="/ods6" render={props =>
+            <Route path="/ods6" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -95,7 +98,7 @@ const Routes = () =>{
               <Ods6/>
             </div>
             }></Route>
-             <Route path="/ods7" render={props =>
+            <Route path="/ods7" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -104,7 +107,7 @@ const Routes = () =>{
               <Ods7/>
             </div>
             }></Route>
-             <Route path="/ods8" render={props =>
+            <Route path="/ods8" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -113,7 +116,7 @@ const Routes = () =>{
               <Ods8/>
             </div>
             }></Route>
-             <Route path="/ods9" render={props =>
+            <Route path="/ods9" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -122,7 +125,7 @@ const Routes = () =>{
               <Ods9/>
             </div>
             }></Route>
-             <Route path="/ods10" render={props =>
+            <Route path="/ods10" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -131,7 +134,7 @@ const Routes = () =>{
               <Ods10/>
             </div>
             }></Route>
-             <Route path="/ods11" render={props =>
+            <Route path="/ods11" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -140,7 +143,7 @@ const Routes = () =>{
               <Ods11/>
             </div>
             }></Route>
-             <Route path="/ods12" render={props =>
+            <Route path="/ods12" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -149,7 +152,7 @@ const Routes = () =>{
               <Ods12/>
             </div>
             }></Route>
-             <Route path="/ods13" render={props =>
+            <Route path="/ods13" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -158,7 +161,7 @@ const Routes = () =>{
               <Ods13/>
             </div>
             }></Route>
-             <Route path="/ods14" render={props =>
+            <Route path="/ods14" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -167,7 +170,7 @@ const Routes = () =>{
               <Ods14/>
             </div>
             }></Route>
-             <Route path="/ods15" render={props =>
+            <Route path="/ods15" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -176,7 +179,7 @@ const Routes = () =>{
               <Ods15/>
             </div>
             }></Route>
-             <Route path="/ods16" render={props =>
+            <Route path="/ods16" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -185,7 +188,7 @@ const Routes = () =>{
               <Ods16/>
             </div>
             }></Route>
-             <Route path="/ods17" render={props =>
+            <Route path="/ods17" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column",
                          
@@ -194,12 +197,15 @@ const Routes = () =>{
               <Ods17/>
             </div>
             }></Route>
+            <Route path="/jogodamemoria" component={MemoryGame} />
+            <Route path="/quiz" component={Quiz} />
+            <Route path="/jogodamemoria2" component={MemoryGame} />
+            <Route path="/jogodamemoria3" component={MemoryGame} />
             <Redirect from="*" to="/Home" />
           </Switch>
         </BrowserRouter>
         
-      </div>
+      </>
     )
 }
 
-export default Routes;

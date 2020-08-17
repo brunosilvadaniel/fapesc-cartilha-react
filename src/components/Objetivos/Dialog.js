@@ -47,6 +47,15 @@ export default function AlertDialog(props) {
     })
   }
 
+  const renderText = (number) =>{
+    if(number < 10){
+      return <><p>{`0${number}`}</p></>
+    }
+    else{
+      return <><p>{props.number}</p></>
+    }
+  }
+
   return (
     <div>
       <button  className={styles[props.number - 1].button}onClick={handleClickOpen}>
@@ -85,10 +94,10 @@ export default function AlertDialog(props) {
           </DialogContentText>
         </DialogContent>
         <div className="dialog-footer-number" style={{backgroundColor: styles[props.number - 1].color, marginLeft:styles[props.number - 1].margin}}>
-        <p>{props.number}</p>
+          {renderText(props.number)}
         </div>
         <div className="test-fix">
-         <DialogActions className="dialog-footer"/>
+          <DialogActions className="dialog-footer"/>
         </div>
       </Dialog>
     </div>
