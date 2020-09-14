@@ -6,17 +6,21 @@ import QuizData from './quizData'
 import './styles.css'
 
 export default class Quiz extends Component {
+ 
   
   constructor(props) {
     super(props)
   
     this.state = {
        userAnswer: null,
+       answer: null,
        currentIndex: 0,
        options: [],
        quizEnd: false,
        score: 0,
-       disabled: true
+       disabled: true,
+       showColors: false,
+       canSelect: true
     } 
   } 
   
@@ -42,21 +46,32 @@ export default class Quiz extends Component {
     
     this.setState({
       currentIndex: this.state.currentIndex + 1,
-      userAnswer: null
+      userAnswer: null,
+      disabled: true,
+      canSelect: true
     })
   }
 
   componentDidMount(){
-    this.loadQuiz()
+    this.loadQuiz();
+    window.scrollTo(0,0);
+    
   }
 
-  checkAnswer = answer =>{
+  checkAnswer = selectedAnswer =>{
     this.setState({
-      userAnswer: answer,
-      disabled: false
+      userAnswer: selectedAnswer,
+      disabled: false,
+      canSelect: false
     })
-  }
+    // const {userAnswer, answer} = this.state
+    // if(userAnswer === answer){
+    //   this.setState({
+    //     showColors: true
+    //   })
+    // }
 
+  }
   finishHandler = () =>{
     const {userAnswer, answer, score} = this.state
 
@@ -73,6 +88,10 @@ export default class Quiz extends Component {
   }
   playAgain = () =>{
     window.location.reload(true);
+  }
+  scorePecentage = (score, total) =>{
+    console.log(score, total)
+    return (score/total) * 10
   }
   componentDidUpdate(prevProps, prevState){
     const {currentIndex} = this.state
@@ -95,8 +114,11 @@ export default class Quiz extends Component {
       options,
       currentIndex,
       userAnswer,
+      answer,
       quizEnd,
-      score} = this.state
+      score,
+      disabled,
+      canSelect} = this.state
 
     if(quizEnd){
       return(
@@ -104,7 +126,7 @@ export default class Quiz extends Component {
           <NavBar/>
           <div className="quiz-div-end">
             <div className="pontuacao">
-              <h1>Você acertou {score * 10} Pontos</h1>
+              <h1>Você acertou {score} de {QuizData.length} totalizando: {score * 10} Pontos</h1>
               <button onClick={this.playAgain}>Jogar novamente</button>
             </div>
             <h2>Gabarito</h2>
@@ -130,10 +152,12 @@ export default class Quiz extends Component {
       <div className="quiz-div">
         <h2>{question}</h2>
         <span>{`Questão numero ${currentIndex + 1} de ${QuizData.length}`}</span>
-        {
+        { 
           options.map(option =>
-            <p key = {option.id} className={`options ${userAnswer === option ? "selected" : null}`}
-            onClick = {() => this.checkAnswer(option)}
+            <p key = {option.id} className={
+              `options ${userAnswer === option ? "selected" : null} ${disabled === false ? option === answer ? 'certo' : 'errado' : null}`
+            }
+            onClick = {canSelect === true ? () => this.checkAnswer(option) : null}
             >
               {option}
             </p> 
@@ -142,7 +166,7 @@ export default class Quiz extends Component {
         {
           currentIndex < QuizData.length - 1 &&
           <button disabled = {this.state.disabled} onClick={this.nextQuestionHandler}>
-            Next Question
+            Proxima pergunta
           </button>}
           {
             currentIndex === QuizData.length - 1 && 

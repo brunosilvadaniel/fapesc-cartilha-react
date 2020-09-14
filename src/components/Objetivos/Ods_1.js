@@ -31,7 +31,7 @@ export default class Ods_1 extends Component {
           </div>
           <div className="envolve-button-ods">
             <AlertDialog odsIcon={OdsIcon} texto={texto} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-1" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-1" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

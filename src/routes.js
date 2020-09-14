@@ -5,10 +5,14 @@ import Header from './components/Navbar/index'
 import Footer from './components/Footer/index'
 import Baloes from './components/Baloes'
 import NavBarJogos from './components/NavBarJogos'
+import Sobre from './components/Sobre/index'
 
 import MemoryGame from './components/games/memoryGame/memoryGame'
 
 import Quiz from './components/games/Quiz/index'
+
+import PuzzleDnd from './components/games/DndPuzzle/index.js'
+import PuzzleDnd2 from './components/games/DndPuzzle2/index.js'
 
 import Ods1 from './components/Objetivos/Ods_1'
 import Ods2 from './components/Objetivos/Ods_2'
@@ -34,6 +38,7 @@ export default function Routes(){
       <>
         <BrowserRouter>
           <Switch>
+            <Route path="/Sobre" component={Sobre}/>
             <Route path="/Home" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column"
@@ -199,7 +204,7 @@ export default function Routes(){
             }></Route>
             <Route path="/jogodamemoria" component={MemoryGame} />
             <Route path="/quiz" component={Quiz} />
-            <Route path="/jogodamemoria2" component={MemoryGame} />
+            <Route path="/puzzlednd" component={PuzzleDnd2} />
             <Route path="/jogodamemoria3" component={MemoryGame} />
             <Redirect from="*" to="/Home" />
           </Switch>

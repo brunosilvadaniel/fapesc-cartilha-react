@@ -22,13 +22,13 @@ export default class Ods_9 extends Component {
               <p>Sabia que esta cartilha que você está lendo precisou de uma indústria, de inovação e de infraestrutura?
               Ela foi feita numa gráfica, que precisou de papel, que por sua vez é produzido numa indústria. Todas as palavras e desenhos precisaram de um computador para serem colocados na cartilha e esse computador foi uma inovação. A inovação acontece quando alguém cria uma coisa nova, que nunca existiu, ou pega uma coisa que já existe e transforma em algo melhor.
               Para ela chegar até a sua mão, foi necessário ter infraestrutura. Que são as estradas ou ferrovias por onde o papel foi transportado para chegar até a gráfíca e a própria cartilha para chegar até você.
-              Mas, as indústrias precisam preservar o meio ambiente e gerar empregos; a inovação e a infraetrutura precisam beneficiar todos os cidadãos para que o mundo seja sustentável.
+              Mas, as indústrias precisam preservar o meio ambiente e gerar empregos; a inovação e a infraetrutura precisam beneficiar todos os cidadãos para que o mundo seja sustentável. A Fundação de Amparo a Pesquisa de Santa Catarina (FAPESC) tem como missão promover o ecossistema catarinense de Ciência, Tecnologia e Inovação por meio de fomento e da integração de seus agentes, objetivando o avanço de todas as áreas do conhecimento, o equilíbrio regional, o desenvolvimento econômico sustentável e a melhoria da qualidade de vida do cidadão catarinense
               </p>
               </div>
           </div>
           <div className="envolve-button-ods">
           <AlertDialog  odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-9" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-9" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

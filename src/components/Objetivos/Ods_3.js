@@ -19,14 +19,14 @@ export default class Ods_3 extends Component {
             <div className="ods-grande angulo-3"/>
             <div className="texto-ods texto-color-3">
               <h1>3 - Saúde e Bem-estar</h1>
-              <p>Com certeza alguma vez na sua vida você já ficou doente, não é mesmo? Sabe como é chato não poder brincar ou estudar porque a saúde não está legal. É por isso que existe um ods para que todos fiquem bem. 
+              <p>Com certeza alguma vez na sua vida você já ficou doente, não é mesmo? Sabe como é chato não poder brincar ou estudar porque a saúde não está legal. É por isso que existe um ODS para que todos fiquem bem. 
               Muitas doenças estão voltando porque as pessoas não estão se cuidando direito. Outras são causadas porque elas não se alimentam bem, não praticam esportes ou não fazem qualquer tipo de atividade física.
               </p>
               </div>
           </div>
           <div className="envolve-button-ods">
           <AlertDialog odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-3" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-3" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

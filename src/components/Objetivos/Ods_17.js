@@ -19,7 +19,7 @@ export default class Ods_17 extends Component {
             <div className="ods-grande angulo-17"/>
             <div className="texto-ods texto-color-17">
               <h1>17 - Parcerias e Meios de Implementação</h1>
-              <p>Você sabe o que é necessário para que todos esses ods que você aprendeu até aqui aconteçam? É necessário haver parcerias! 
+              <p>Você sabe o que é necessário para que todos esses ODS que você aprendeu até aqui aconteçam? É necessário haver parcerias! 
               Porque é muito difícil ser sustentável sozinho, mas com ajuda dos amigos, família, escolas, empresas e governos não é impossível!
               Converse com seus amigos, professores e familiares e formem um time de guardiões do planeta!
               </p>
@@ -27,7 +27,7 @@ export default class Ods_17 extends Component {
           </div>
           <div className="envolve-button-ods">
           <AlertDialog odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-17" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-17" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

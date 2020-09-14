@@ -37,7 +37,7 @@ export default class Footer extends Component{
           </div>
         </div>
         <div>
-          <span className='contato-span'>(XX)XXXX-XXXX   emaildoprojeto@email.com   Rua do Endereço, nº XX - Criciúma - SC</span>
+          <span className='contato-span'>(48)3431-7628  ods2030@satc.edu.br  - Criciúma - SC</span>
 		    </div>
       </footer>
     )

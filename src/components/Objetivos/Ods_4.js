@@ -21,13 +21,13 @@ export default class Ods_4 extends Component {
               <h1>4 - Educação de Qualidade</h1>
               <p>Como estão seus estudos? Como é a sua escola? Tem materiais, espaços e professores para todos os alunos? A escola fica perto ou longe da sua casa?
               Parecem perguntas bobas, mas não são. Sabia que muitas crianças não podem ir pra aula pois seu país está em guerra? Ou porque a escola fica muito longe e não tem transporte? Acredita que existem escolas que não tem nem onde as crianças sentarem e nem merenda?
-              A educação é um direito de todos e os governos devem criar possibilidades para que todas as crianças, jovens e adultos tenham oportunidades de aprender sempre.
+              A educação é um direito de todos e os governos devem criar possibilidades para que todas as crianças, jovens e adultos tenham oportunidades de aprender sempre. As empresas mineradoras investem 1% do seu faturamento na SATC. Com a SATC, o setor carbonífero oportuniza ensino de qualidade para pessoas de baixa renda, através da disponibilização de bolsas de estudo.
               </p>
               </div>
           </div>
           <div className="envolve-button-ods">
           <AlertDialog odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-4" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-4" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

@@ -1,0 +1,14 @@
+.Sobre {
+  display:  flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10em;
+  background-color: #C7F3FF;
+}
+.Sobre h1{
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px black;
+  font-size: 50px;
+}

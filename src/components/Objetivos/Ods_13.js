@@ -19,15 +19,15 @@ export default class Ods_13 extends Component {
             <div className="ods-grande angulo-13"/>
             <div className="texto-ods texto-color-13">
               <h1>13 - Ação Contra a Mudança Global do Clima</h1>
-              <p>Vamos explicar: em volta do nosso planeta existe uma camada de gazes que protegem o planeta mantendo a temperatuda ideal para a vida. Funcionando como uma estufa!
-              Com a poluição, essa camada está ficando cada vez mais grossa e aumentando a temperatua média do planeta. Sabe o que pode acontecer? O aumento da temperatura pode provocar mudanças climáticas. 
-              Isto é, teremos verões cada vez mais quentes e invernos cada vez mais frios. Mais ocorrencias de furacões, enchentes e secas. As geleiras podem derreter e aumentar o nível do mar.
+              <p>O crescente debate mundial sobre mudanças climáticas colocou forte foco sobre o carvão mineral e o seu aproveitamento para a geração de energia.
+Ciente da necessidade de se adaptar às novas demandas ambientais, de demonstrar a sua viabilidade como fonte sustentável de energia novas tecnologias estão sendo estudadas, dentre elas a gaseificação de carvão, captura e armazenamento de CO2, indústria carboquímica, entre outras.
+
               </p>
               </div>
           </div>
           <div className="envolve-button-ods">
           <AlertDialog  odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-13" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-13" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

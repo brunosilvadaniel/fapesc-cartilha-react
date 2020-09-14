@@ -22,13 +22,13 @@ export default class Ods_8 extends Component {
               <p>O crescimento econômico é importante para gerar riquezas para os países e para as pessoas. 
               Mas ele precisa ser sustentável! Isto é, precisa preservar a natureza e cuidar das pessoas para que todos tenham as mesmas oportunidades.
               Durante muitos anos, as pessoas acreditavam que o que tem na natureza nunca iria acabar. Mas, já aprendemos que não é verdade.
-              Se cada um fizer a sua parte, vamos ter a possibilidade de aumentar a renda das famílias, diminuir o desemprego, preservar a natureza e garantir um futuro melhor para todos.
+              Se cada um fizer a sua parte, vamos ter a possibilidade de aumentar a renda das famílias, diminuir o desemprego, preservar a natureza e garantir um futuro melhor para todos. Em 2017 a Indústria do Carvão Mineral no Brasil possuía 14 empresas em operação e emprega, diretamente, mais de cinco mil pessoas. Nos estados do Rio Grande do Sul, Santa Catarina e Paraná, a cadeia Termelétrica gera em torno de 53 mil empregos e movimenta cerca de R$ 12 bilhões por ano.
               </p>
               </div>
           </div>
           <div className="envolve-button-ods">
           <AlertDialog  odsIcon={OdsIcon} number={number} firstTopic={firstTopic} secondTopic={secondTopic} thirdTopic={thirdTopic} fourthTopic={fourthTopic} />
-            <Link to="/Home" className="button-ods button-color-8" style={{ textDecoration: 'none' }}>Voltar para os balões</Link>
+            <Link to="/Home" className="button-ods button-color-8" style={{ textDecoration: 'none' }}>Voltar para as ODS</Link>
           </div>
         </div>
     )

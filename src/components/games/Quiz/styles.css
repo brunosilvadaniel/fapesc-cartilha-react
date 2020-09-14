@@ -51,11 +51,11 @@ ul li{
 
 }
 .quiz-div p{
-  padding: 20px;
+  padding: 15px;
   text-align: center;
-  width: 60%;
+  width: 40%;
   border: 0 solid white;
-  border-radius: 10px;
+  border-radius: 60px;
   background-color: #0398DA;
   box-shadow: 2px 2px 2px 1px white;
   text-shadow: 1px 1px black;
@@ -127,6 +127,12 @@ ul li{
   font-size: 16px;
   text-shadow: 1px 1px black;
   margin-bottom: 20px;
+}
+.certo{
+  background-color: green !important;
+}
+.errado{
+  background-color: red !important;
 }
 
 .body{

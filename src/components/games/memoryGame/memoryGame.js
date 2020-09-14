@@ -6,6 +6,7 @@ import NavBar from '../../Navbar/index'
 import './style.css'
 
 import initializeDeck from './deck'
+import { Component } from 'react'
 
 export default function MemoryGame(){
   const [cards, setCards] = useState([])
@@ -20,6 +21,7 @@ export default function MemoryGame(){
   }, [])
 
   useEffect(() =>{
+    window.scrollTo(0,0);
     const resizeListener = window.addEventListener('resize', resizeBoard)
 
     return () => window.removeEventListener('resize', resizeListener)
@@ -63,7 +65,7 @@ export default function MemoryGame(){
     ))
   }
 
-  return(
+  return( 
     <div className="memory-game">
       <NavBar/>
       <div className="wrap-game">
