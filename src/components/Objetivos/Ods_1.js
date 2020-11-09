@@ -24,7 +24,7 @@ export default class Ods_1 extends Component {
             <div className="texto-ods texto-color-1">
               <h1>1 - Erradicação da Pobreza</h1>
               <p>
-                O ods 1 busca acabar com a pobreza extrema para todas as pessoas e em todos os lugares. existem milhares de crianças sem condições de se alimentar todos os dias, sem ter água, sem ter uma boa casa para morar e sem poder brincar porque tem que trabalhar.
+                O ODS 1 busca acabar com a pobreza extrema para todas as pessoas e em todos os lugares. existem milhares de crianças sem condições de se alimentar todos os dias, sem ter água, sem ter uma boa casa para morar e sem poder brincar porque tem que trabalhar.
                 para que o ods 1 seja alcançado, as pessoas, as empresas e os políticos precisam trabalhar juntos, para melhorar a vida das crianças, dos adolescentes, dos adultos e dos idosos para que todos tenham acesso aos seus direitos e vivam bem.
               </p>
               </div>

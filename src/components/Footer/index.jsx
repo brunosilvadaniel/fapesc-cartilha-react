@@ -33,12 +33,10 @@ export default class Footer extends Component{
             <div className="parceiros">
              <span className="role-instituicao">Parceiro:</span>
              <img className="img-ODS"src={LogoMovimentoScOds} alt="logo-movimento-sc-ods"/>
+             <span className='contato-span'>(48)3431-7628  ods2030@satc.edu.br  - Criciúma - SC</span>
            </div>
           </div>
         </div>
-        <div>
-          <span className='contato-span'>(48)3431-7628  ods2030@satc.edu.br  - Criciúma - SC</span>
-		    </div>
       </footer>
     )
   }

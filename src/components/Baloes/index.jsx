@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import ImageMapper from 'react-image-mapper'
 
+import Boy from '../../assets/pngs/kids/boy.png'
+import Girl from '../../assets/pngs/kids/girl.png'
+
 import './index.css'
 
 export default class Baloes extends Component{
 
   URL = "https://i.ibb.co/qddnHv7/thumbnail.png"
+  URL_BOY = "https://ibb.co/sbhwwp3"
+  URL_GIRL = "https://ibb.co/sbhwwp3https://ibb.co/HFX1Qtz"
   MAP = {
     name: "Baloes",
     areas: [
@@ -44,6 +49,8 @@ export default class Baloes extends Component{
   }
 
   render(){
+    let width = window.innerWidth;
+    if (width> 768){
     return(
       <div className="baloes">
         <div className="ceu">           
@@ -57,7 +64,43 @@ export default class Baloes extends Component{
           </div>
           <div className="grama-cima"></div>
         </div>    
-          {/* <BrowserRouter> */}
+          <div className="grama-baixo">
+
+          </div>  
+      </div>
+    );
+  }else{
+    return(
+      <div className="baloes">
+        {/* <div className="ceu">            */}
+          <div className="container-mobile">
+            <div className="boy-mobile-container">
+              <div className="ceu">
+              <div className="grama-fundo"/>
+          
+                <div className="boy-mobile"> 
+                <ImageMapper  src={Boy}/>
+                </div>
+              </div>
+    
+            </div>
+            <div className="girl-mobile-container">        
+              <div className="ceu">              
+                <div className="grama-fundo"/>
+                <div className="girl-mobile">
+                  <ImageMapper src={Girl}/>
+                </div>
+              </div>
+            </div>
+          {/* </div> */}
+        </div>    
+      </div>
+     )
+    }
+  }
+}
+
+  {/* <BrowserRouter> */}
           {/* <div className="bonecos-balao">
             <div className="baloes-esquerda">
               <div className="penca-esquerda">
@@ -138,10 +181,4 @@ export default class Baloes extends Component{
             </div>
           </div> */}
           {/* </BrowserRouter> */}
-          <div className="grama-baixo">
-            {/* <img src={mato} alt="" className="mato"/> */}
-          </div>  
-      </div>
-    )
-  }
-}
+                      {/* <img src={mato} alt="" className="mato"/> */}

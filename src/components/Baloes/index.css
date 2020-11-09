@@ -1,6 +1,7 @@
 .baloes{
+  margin-top: 8em;
   display: flex;
-  height: 1380px;
+  height: 100%;
   width: 100%;
   flex-direction: column;
 }
@@ -143,5 +144,40 @@
   margin-bottom: 6.5%;
   align-self: flex-end;
 }
+.container-mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boy-mobile-container{
+  width: 100%;
+  z-index: 4;  
+}
+.girl-mobile-container{
+  width: 100%;
+}
+.boy-mobile{
+  padding: 30px;
+  z-index: 4;
+}
+.girl-mobile{
+  padding: 30px;
+  z-index: 4;
+}
+.grama-fundo{
+  background-color: #00966E;
+  height: 10.5%;
+  width: 89vh;
+  position: absolute;
+  top:1;
+}
+.grama-escorida-b{
+  margin: 0 auto;
+  width: 100vh;
+  height: 100vh;
+  background-image: url("../../assets/images/Grama-escaldada.png");
+  background-position: center bottom;
+}
+
 
 

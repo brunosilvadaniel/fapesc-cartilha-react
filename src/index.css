@@ -19,12 +19,12 @@ code {
 	.button-nav{
 		font-size: 30px;
 	}
-	.baloes{
+	/* .baloes{
 		display: flex;
 		height: 1250px;
 		width: 100%;
 		flex-direction: column;
-	}
+	} */
 	.bonecos-balao{
     display: flex;
     width: 750px;
