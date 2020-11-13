@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods13.png'
 
 const number = 13
 
-const firstTopic = ['Reduzir o consumo de produtos poluentes','Manter o carro regulado','Morar mais perto do trabalho','Usar combustíveis renováveis','Cumprir com as leis ambientais(Código Florestal, PNRS, PNRH)']
-const secondTopic = ['Plantar árvores nas áreas rurais e urbanas','Ensinar as leis ambientais','Realizar campanhas contra as queimadas','Dar suporte a projetos de pesquisa e formação na área ambiental']
-const thirdTopic = ['Realizar o controle da emissão de gás carbônico, metano e óxido nitroso, e outros gases poluentes','Manter a frota de veículos com a manutenção em dia']
-const fourthTopic = ['Implantar as brigadas de defesa civil e envolver a população','Divulgar informações sobre gestão de risco sobre desastres e adaptações a mudanças climáticas','Implantar aterros sanitários','Ofertar a coleta seletiva dos resíduos','Proteger as áreas verdes']
+const firstTopic = ['•	CAMINHE E ANDE DE BICICLETA','•	NÃO JOGUE LIXO NAS RUAS','•	COMA MAIS FRUTAS, VERDURAS E LEGUMES E COMO MENOS CARNE','•	ESTUDE SOBRE ENERGIAS RENOVÁVEIS E NÃO POLUENTES','•	CONTE PARA SEUS PAIS, FAMÍLIARES E ATÉ MESMO PARA O MOTORISTA DO ONIBUS DA SUA ESCOLA, QUE É MUITO IMPORTANTE MANTER O MOTOR DO CARRO OU DO ÔNIBUS BEM REGULADO PARA NÃO POLUIR O AR.','•	PLANTE ÁRVORES E NÃO DEIXE DERRUBAREM AS ÁRVORES NA SUA CIDADE E NEM NAS FLORESTAS.']
+const secondTopic = ['•	PLANTAR ÁRVORES NAS ÁREAS RURAIS E URBANAS','•	ENSINAR AS LEIS AMBIENTAIS NAS ESCOLAS E UNIVERSIDADES','•	REALIZAR CAMPANHAS CONTRA AS QUEIMADAS E DESMATAMENTO','•	DAR SUPORTE A PROJETOS DE PESQUISA E FORMAÇÃO NA ÁREA AMBIENTAL','•	REALIZAR O CONTROLE DA EMISSÃO DE GÁS CARBÔNICO, METANO E ÓXIDO NITROSO, E OUTROS GASES POLUENTES','•	MANTER A FROTA DE VEÍCULOS COM A MANUTENÇÃO EM DIA','•	DIVULGAR INFORMAÇÕES SOBRE GESTÃO DE RISCO SOBRE DESASTRES E ADAPTAÇÕES A MUDANÇAS CLIMÁTICAS.','•	PROTEGER AS ÁREAS VERDES','•	CRIAR LINHAS DE PESQUISAS PARA O DESENVOLVIMENTO DE PROCESSOS E PRODUTOS QUE MINIMIZEM AS MUDANÇAS CLIMÁTICAS.']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_13 extends Component {
   render() {
@@ -19,9 +19,13 @@ export default class Ods_13 extends Component {
             <div className="ods-grande angulo-13"/>
             <div className="texto-ods texto-color-13">
               <h1>13 - Ação Contra a Mudança Global do Clima</h1>
-              <p>O crescente debate mundial sobre mudanças climáticas colocou forte foco sobre o carvão mineral e o seu aproveitamento para a geração de energia.
-Ciente da necessidade de se adaptar às novas demandas ambientais, de demonstrar a sua viabilidade como fonte sustentável de energia novas tecnologias estão sendo estudadas, dentre elas a gaseificação de carvão, captura e armazenamento de CO2, indústria carboquímica, entre outras.
-
+              <p>
+                VOCÊ SABE O QUE É AQUECIMENTO GLOBAL? <br/><br/>
+                VAMOS EXPLICAR: EM VOLTA DO NOSSO PLANETA EXISTE UMA CAMADA <br/>
+                DE GAZES QUE PROTEGEM O PLANETA MANTENDO A TEMPERATUDA IDEAL PARA A VIDA. FUNCIONANDO COMO UMA ESTUFA! <br/><br/>
+                COM A POLUIÇÃO, ESSA CAMADA ESTÁ FICANDO CADA VEZ MAIS GROSSA E AUMENTANDO A TEMPERATUA MÉDIA DO PLANETA. SABE O QUE PODE ACONTECER? O AUMENTO DA TEMPERATURA PODE PROVOCAR
+                MUDANÇAS CLIMÁTICAS. <br/><br/>
+                ISTO É, TEREMOS VERÕES CADA VEZ MAIS QUENTES E INVERNOS CADA VEZ MAIS FRIOS. MAIS OCORRENCIAS DE FURACÕES, ENCHENTES E SECAS. AS GELEIRAS PODEM DERRETER E AUMENTAR O NÍVEL DO MAR.
               </p>
               </div>
           </div>

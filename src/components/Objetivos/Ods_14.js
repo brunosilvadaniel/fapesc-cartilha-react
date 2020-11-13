@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods14.png'
 
 const number = 14
 
-const firstTopic = ['Instalar a minha residência na rede de saneamento público','Reduzir o consumo de peixes em extinção','Não praticar a pesca predatória']
-const secondTopic = ['Escolher um rio do entorno da escola para conhecer e proteger','Estimular o uso de aplicativos como whatsApp para denunciar pesosas/empresas que jogam lixos nos rios']
+const firstTopic = ['•	NÃO USE COPOS, PRATOS E TALHERES DE PLÁSTICO DESCARTÁVEL','•	NÃO USE COPOS, PRATOS E TALHERES DE PLÁSTICO DESCARTÁVEL','•	NÃO DEIXE LIXO NA PRAIA','•	SE TIVER UM RIO PERTO DA SUA ESCOLA, CONVERSE COM SEUS PROFESSORES PARA CONHECER E PROTEGER O RIO','•	CONVIDE SEUS AMIGOS E COLEGAS PARA FAZER UM MUTIRÃO DE LIMPEZA NA SUA RUA OU ESCOLA, NÃO ESQUEÇA DE PEDIR AJUDA PARA UM ADULTO.']
+const secondTopic = ['•	IMPLANTAR REDE DE COLETA E ESTAÇÃO DE TRATAMENTO DE ESGOTO PARA O MUNICÍPIO.','•	RESPEITAR O PERÍODO DE DEFESO E NÃO PRATICAR A PESCA PREDATÓRIA.','•	FAZER CAMPANHAS DE PROTEÇÃO DOS RIOS E REFLORESTAMENTO DAS MATAS CILIARES ','•	DENUNCIAR PESOSAS/EMPRESAS QUE JOGAM LIXOS NOS RIOS E LOCAIS IRREGULARES','•	MELHORAR O SANEAMENTO DAS CIDADES','•	INCENTIVAR O REAPROVEITAMENTO DE ÓLEO DE COZINHA ']
 const thirdTopic = []
-const fourthTopic = ['Criar leis que proíbam a utilização de sacolas plásticas nos supermercados','Melhorar o saneamento das cidades','Reaproveitar ou destinar corretamente o óleo de cozinho','Reduzir a pesca predatória','Reduzir a acidez dos oceanos']
+const fourthTopic = []
 
 export default class Ods_14 extends Component {
   render() {
@@ -19,9 +19,10 @@ export default class Ods_14 extends Component {
             <div className="ods-grande angulo-14"/>
             <div className="texto-ods texto-color-14">
               <h1>14 - Vida na Água</h1>
-              <p>Os oceanos são fonte de vida. Neles vivem milhares de animais e plantas que são muito importantes para o nosso ecossistema.
-              Sabia que o lixo jogado nos rios vai parar no mar? E esse lixo pode matar os peixes, tartarugas e todos os seres que vivem nele? Isso mesmo! Os animais marinhos não sabem ver a diferença entre uma sacola de plástico de uma água-viva.
-              Para garantir a vida na água, devemos lembrar sempre que todo o lixo descartado de forma incorreta acaba na água. Portanto, dizer não a tudo que é descartável é muito importante.
+              <p>
+              OS OCEANOS SÃO FONTE DE VIDA. NELES VIVEM MILHARES DE ANIMAIS E PLANTAS QUE SÃO MUITO IMPORTANTES PARA O NOSSO ECOSSISTEMA. <br/> <br/>
+              SABIA QUE O LIXO JOGADO NOS RIOS VAI PARAR NO MAR? E ESSE LIXO PODE MATAR OS PEIXES, TARTARUGAS E TODOS OS SERES QUE VIVEM NELE? ISSO MESMO! OS ANIMAIS MARINHOS NÃO SABEM VER A DIFERENÇA ENTRE UMA SACOLA DE PLÁSTICO DE UMA ÁGUA-VIVA.<br/> <br/>
+              PARA GARANTIR A VIDA NA ÁGUA, DEVEMOS LEMBRAR SEMPRE QUE TODO O LIXODESCARTADO DE FORMA INCORRETA ACABA NA ÁGUA. PORTANTO, DIZER NÃO A TUDO QUE É DESCARTÁVEL É MUITO IMPORTANTE.
               </p>
               </div>
           </div>

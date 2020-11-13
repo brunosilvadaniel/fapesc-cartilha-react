@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods2.png'
 
 const number = 2
 
-const firstTopic = ['Plantar a sua própria horta e participar da construção de hortas comunitárias','Participar da Pastoral da Criança e outros movimentos em prol da alimentação','Doar alimentos para pessoas carentes','Reduzir o desperdício de alimentos']
-const secondTopic = ['Incentivar programas de apoio à merenda escolar e educação alimentar','Ensinar organizações socias e familiares a aproveitarem melhor os alimentos, evitando o desperdício','Criar cursos de exntesão sobre Nutrição']
-const thirdTopic = ['Aumentar a produçaõ de alimentos saudáveis','Reduzir os preços dos alimentos nutritivos','Instalar refeitórios nas empresas','Fornecer refeições para os colaboradores']
-const fourthTopic = ['Implantar restarurantes populares(de baixo preço)','Estimular a agricultura familiar e comunitaria de subsistência','Comprar produtos da agricultura familiar','Capacitar a mão-de-obra na elaboração de alimentos básicos','Fazer camapanha sobre alimentação saudável','Divulgar ações que promovam a segurança alimentar']
+const firstTopic = ['•	NÃO DESPERDIÇAR COMIDA.','•	PREFIRA FRUTAS, VERDURAS E LEGUMES ORGÂNICOS E PRODUZIDOS PELA AGRICULTURA SUSTENTÁVEL.','•	SE POSSÍVEL, FAÇA UMA HORTA NA SUA CASA, ESCOLA OU COMUNIDADE.']
+const secondTopic = ['•	PARTICIPAR DA PASTORAL DA CRIANÇA E OUTROS MOVIMENTOS EM PROL DA ALIMENTAÇÃO.','•	DOAR ALIMENTOS PARA PESSOAS E ORGANIZAÇÕES.','•	REDUZIR O DESPERDÍCIO DE ALIMENTOS.','•	INCENTIVAR PROGRAMAS DE APOIO À MERENDA ESCOLAR E EDUCAÇÃO ALIMENTAR.','•	ENSINAR ORGANIZAÇÕES SOCIAS E FAMILIARES A APROVEITAREM MELHOR OS ALIMENTOS, EVITANDO O DESPERDÍCIO.','•	CRIAR CURSOS DE EXNTESÃO SOBRE NUTRIÇÃO.','•	AUMENTAR A PRODUÇÃO DE ALIMENTOS SAUDÁVEIS.','•	REDUZIR OS PREÇOS DOS ALIMENTOS NUTRITIVOS.','•	INSTALAR REFEITÓRIOS NAS EMPRESAS E FORNECER REFEIÇÕES PARA OS COLABORADORES.','•	IMPLANTAR RESTARURANTES POPULARES (DE BAIXO PREÇO).','•	ESTIMULAR A AGRICULTURA FAMILIAR E COMUNITARIA DE SUBSISTÊNCIA.','•	COMPRAR PRODUTOS DA AGRICULTURA FAMILIAR.']
+const thirdTopic = []
+const fourthTopic = []
 
 
 export default class Ods_2 extends Component {
@@ -20,9 +20,13 @@ export default class Ods_2 extends Component {
            <div className="ods-grande angulo-2"/>
            <div className="texto-ods texto-color-2">
             <h1>2 - Fome Zero e Agricultura Sustentável</h1>
-            <p>Sabe aquela sensação de falta de energia, de fraqueza, às vezes até de dor, podem ser causadas por falta de alimentos. 
-              Para ficarmos fortes e saudáveis, nosso corpo precisa de vitaminas, minerais e nutrientes que estão nas frutas, verduras, legumes, carnes, ovos, leite, peixes, etc. Imagina uma pessoa ficar vários dias sem comer, ou comendo só um tipo de comida? 
-              Cada um deve fazer a sua parte e os governos precisam criar políticas para promover a agricultura sustentável, protegendo as nossas florestas e nascentes.
+            <p>
+SABE AQUELA SENSAÇÃO DE FALTA DE ENERGIA, DE FRAQUEZA, ÀS VEZES ATÉ DE DOR, PODEM SER CAUSADAS POR FALTA DE ALIMENTOS.<br/> 
+
+PARA FICARMOS FORTES E SAUDÁVEIS, NOSSO CORPO PRECISA DE VITAMINAS, MINERAIS E NUTRIENTES QUE ESTÃO NAS FRUTAS, VERDURAS, LEGUMES, CARNES, OVOS, LEITE, PEIXES, ETC. IMAGINA UMA PESSOA FICAR VÁRIOS DIAS SEM COMER, OU COMENDO SÓ UM TIPO DE COMIDA?<br/>  
+
+CADA UM DEVE FAZER A SUA PARTE E OS GOVERNOS PRECISAM CRIAR POLÍTICAS PARA PROMOVER A AGRICULTURA SUSTENTÁVEL, PROTEGENDO AS NOSSAS FLORESTAS E NASCENTES
+
             </p>
            </div>
           </div>

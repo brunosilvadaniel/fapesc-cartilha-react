@@ -6,6 +6,7 @@ import Footer from './components/Footer/index'
 import Baloes from './components/Baloes'
 import NavBarJogos from './components/NavBarJogos'
 import Sobre from './components/Sobre/index'
+import VoceSabia from './components/VoceSabia/index'
 
 import MemoryGame from './components/games/memoryGame/memoryGame'
 
@@ -39,6 +40,7 @@ export default function Routes(){
         <BrowserRouter>
           <Switch>
             <Route path="/Sobre" component={Sobre}/>
+            <Route path="/VoceSabia" component={VoceSabia}/>
             <Route path="/Home" render={props =>
             <div style={{"display": "flex",
                          "flex-direction":"column"

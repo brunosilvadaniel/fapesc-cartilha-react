@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods8.png'
 
 const number = 8
 
-const firstTopic = ['Realizar cursos à distância de aperfeiçoamento profissional','Gerar empregos decentes','Aumentar a produtividade individual','Aumentar a confiança entre os moradores do município']
-const secondTopic = ['Promover a educação para o empreendedorismo','Criar emrpesas juniores','Criar bolsas de estágios para os acadêmicos','Estimular o uso de aplicativos como whatsApp para divulgação de vagas']
-const thirdTopic = ['Aumentar a produtividade das empresas','Promover concursos internos em locais que estimulem o debate e a sensibilização individual sobre o desenvolvimento sustentável e a importância da colaboração de cada um','Incentivar a criação de startups em áreas competitivas']
-const fourthTopic = ['Desenvolver a cultura de empreendeorismo nas universidades de negócios','Incluir a Pessoa com Deficiência - PcD no mercado de trabalho','Apoiar progrmas de geração de novas oportunidades de absorção e recrutamentos de jovens nas pequenas e médias empresas']
+const firstTopic = ['•	ECONOMIZAR SEU DINHEIRO','•	CONVERSE COM SEUS PAIS SOBRE AS COMPRAS DA CASA, PEÇA PARA TE ENSINAREM SOBRE OS VALORES DAS COISAS.','•	QUANDO VOCÊ OU SEUS PAIS FOREM COMPRAR ALGUM PRESENTE, COMPRE DE PRODUTORES OU EM LOJAS PERTO DA SUA CASA.','•	E MUITO IMPORTANTE: CRIANÇA NÃO DEVE TRABALHAR, ELA DEVE BRINCAR E ESTUDAR. MAS, ELA PODE AJUDAR COM AS TAREFAS DE CASA. COMO ARRUMAR O SEU QUARTO, POR EXEMPLO!']
+const secondTopic = ['•	REALIZAR CURSOS À DISTÂNCIA DE APERFEIÇOAMENTO PROFISSIONAL','•	GERAR EMPREGOS DECENTES','•	AUMENTAR A PRODUTIVIDADE INDIVIDUAL','•	AUMENTAR A CONFIANÇA ENTRE OS MORADORES DO MUNICÍPIO','•	PROMOVER A EDUCAÇÃO PARA O EMPREENDEDORISMO','•	CRIAR EMPRESAS JUNIORES','•	CRIAR BOLSAS DE ESTÁGIOS PARA OS ACADÊMICOS','•	ESTIMULAR O USO DE APLICATIVOS COMO WHATSAPP PARA DIVULGAÇÃO DE VAGAS','•	AUMENTAR A PRODUTIVIDADE DAS EMPRESAS','•	INCENTIVAR A CRIAÇÃO DE STARTUPS EM ÁREAS COMPETITIVAS','•	DESENVOLVER A CULTURA DE EMPREENDORISMO NAS UNIVERSIDADES E ESCOLAS','•	INCLUIR A PESSOA COM DEFICIÊNCIA NO MERCADO DE TRABALHO.','•	APOIAR PROGRAMAS DE GERAÇÃO DE NOVAS OPORTUNIDADES DE ABSORÇÃO E RECRUTAMENTOS DE JOVENS NAS PEQUENAS E MÉDIAS EMPRESAS.','•	PROMOVER A EDUCAÇÃO FINANCEIRA PARA REDUZIR O ENDIVIDAMENTO DA POPULAÇÃO.','•	PROTEGER OS DIREITOS TRABALHISTAS E PROMOVER AMBIENTES DE TRABALHO SEGUROS E PROTEGIDOS PARA TODOS OS TRABALHADORES.']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_8 extends Component {
   render() {
@@ -19,10 +19,12 @@ export default class Ods_8 extends Component {
             <div className="ods-grande angulo-8"/>
             <div className="texto-ods texto-color-8">
               <h1>8 - Trabalho Decente e Crescimento Econômico</h1>
-              <p>O crescimento econômico é importante para gerar riquezas para os países e para as pessoas. 
-              Mas ele precisa ser sustentável! Isto é, precisa preservar a natureza e cuidar das pessoas para que todos tenham as mesmas oportunidades.
-              Durante muitos anos, as pessoas acreditavam que o que tem na natureza nunca iria acabar. Mas, já aprendemos que não é verdade.
-              Se cada um fizer a sua parte, vamos ter a possibilidade de aumentar a renda das famílias, diminuir o desemprego, preservar a natureza e garantir um futuro melhor para todos. Em 2017 a Indústria do Carvão Mineral no Brasil possuía 14 empresas em operação e emprega, diretamente, mais de cinco mil pessoas. Nos estados do Rio Grande do Sul, Santa Catarina e Paraná, a cadeia Termelétrica gera em torno de 53 mil empregos e movimenta cerca de R$ 12 bilhões por ano.
+              <p>
+                O CRESCIMENTO ECONÔMICO É IMPORTANTE PARA GERAR
+                RIQUEZAS PARA OS PAÍSES E PARA AS PESSOAS. <br/><br/>
+                MAS ELE PRECISA SER SUSTENTÁVEL! ISTO É, PRECISA PRESERVAR A NATUREZA E CUIDAR DAS PESSOAS PARA QUE TODOS TENHAM AS MESMAS OPORTUNIDADES. <br/><br/>
+                DURANTE MUITOS ANOS, AS PESSOAS ACREDITAVAM QUE O QUE TEM NA NATUREZA NUNCA IRIA ACABAR. MAS, JÁ APRENDEMOS QUE NÃO É VERDADE. <br/><br/>
+                SE CADA UM FIZER A SUA PARTE, VAMOS TER A POSSIBILIDADE DE AUMENTAR A RENDA DAS FAMÍLIAS, DIMINUIR O DESEMPREGO, PRESERVAR A NATUREZA E GARANTIR UM FUTURO MELHOR PARA TODOS
               </p>
               </div>
           </div>

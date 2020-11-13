@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods5.png'
 
 const number = 5
 
-const firstTopic = ['Valorizar o trabalho doméstico','Votar no gênero feminio nas eleições em todos níveis','Criar oportunidades de inserção de mão-de-obra femina em atividades alternativas consideradas masculinas','Comuniar uma situação de violência 180']
-const secondTopic = ['Incluir  a valorização do trabalho da mulher em programas de diversidade','Implantar programas de capacitação e melhoria na qualificação das mulheres']
-const thirdTopic = ['Sensibilizar mulheres a assumirem postos de trabalho geralmente ocupados por homens','Promever palestras sobre autoestima, gestão de carreira']
-const fourthTopic = ['Promover a formação política para as adolescentes e mulheres','Promover uma feira das profissões valorizando o papel da mulher na sociedade','Valorizar ações comunitárias que envolvam o trabalho feminino, apoiando iniciativas que promovam o cooperativismo e auto sustentação','Apoiar políticas públicas para atender mulheres negras, de povos indíginas, tradicionais e itinerantes']
+const firstTopic = ['•	TRATE TODOS IGUALMENTE','•	RESPEITE HOMENS E MULHERES QUE CUIDAM DA FAMÍLIA','•	NÃO ACEITE A VIOLÊNCIA CONTRA MULHERES E MENINAS','•	BUSQUE SEMPRE A DIVISÃO POR IGUAL DAS TAREFAS']
+const secondTopic = ['•	VALORIZAR O TRABALHO DOMÉSTICO','•	CRIAR OPORTUNIDADES DE INSERÇÃO DE MÃO-DE-OBRA FEMINA NO MERCADO DE TRABALHO','•	INCLUIR A VALORIZAÇÃO DO TRABALHO DA MULHER EM PROGRAMAS DE DIVERSIDADE','•	IMPLANTAR PROGRAMAS DE CAPACITAÇÃO E MELHORIA NA QUALIFICAÇÃO DAS MULHERES','•	SENSIBILIZAR MULHERES A ASSUMIREM POSTOS DE TRABALHO GERALMENTE OCUPADOS POR HOMENS','•	PROMEVER PALESTRAS SOBRE AUTOESTIMA, GESTÃO DE CARREIRA','•	PROMOVER UMA FEIRA DAS PROFISSÕES VALORIZANDO O PAPEL DA MULHER NA SOCIEDADE','•	VALORIZAR AÇÕES COMUNITÁRIAS QUE ENVOLVAM O TRABALHO FEMININO, APOIANDO INICIATIVAS QUE PROMOVAM O COOPERATIVISMO E AUTO SUSTENTAÇÃO','•	APOIAR POLÍTICAS PÚBLICAS PARA ATENDER MULHERES NEGRAS, DE POVOS INDÍGINAS, TRADICIONAIS E ITINERANTES']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_5 extends Component {
   render() {
@@ -19,9 +19,12 @@ export default class Ods_5 extends Component {
             <div className="ods-grande angulo-5"/>
             <div className="texto-ods texto-color-5">
               <h1>5 - Igualdade de Gênero</h1>
-              <p>É garantir que todas as meninas e mulheres tenham os mesmos direitos e oportunidades que os meninos e homens.
-              Se meninos e meninas não tiverem as mesmas oportunidades eles podem não ter a chance de fazer algo em que são bons. Por exemplo, se a marta não tivesse tido a chance de jogar futebol ela nunca seria a melhor jogadora de futebol do mundo! 
-              Meninos e meninas precisam ser respeitados pelas suas escolhas, pelas suas capacidades e por suas diferenças. Respeitando as diferenças, apoiando nos estudos e incentivando na profissão, meninos e meninas podem se tornar adultos incríveis!
+              <p>
+                VOCÊ SABE O QUE É IGUALDADE DE GÊNERO?<br/><br/>
+                É GARANTIR QUE TODAS AS MENINAS E MULHERES TENHAM OS MESMOS DIREITOS E OPORTUNIDADES QUE OS MENINOS E HOMENS.<br/><br/>
+                SE MENINOS E MENINAS NÃO TIVEREM AS MESMAS OPORTUNIDADES, ELES PODEM NÃO TER A CHANCE DE FAZER ALGO EM QUE SÃO BONS. POR EXEMPLO, SE A MARTA NÃO TIVESSE TIDO A CHANCE DE JOGAR FUTEBOL, ELA NUNCA SERIA A MELHOR JOGADORA DE FUTEBOL DO MUNDO!<br/><br/>
+                MENINOS E MENINAS PRECISAM SER RESPEITADOS PELAS SUAS ESCOLHAS, CAPACIDADES E POR SUAS DIFERENÇAS.<br/><br/>
+                RESPEITANDO AS DIFERENÇAS, APOIANDO NOS ESTUDOS E INCENTIVANDO NA PROFISSÃO, MENINOS E MENINAS PODEM SE TORNAR ADULTOS INCRÍVEIS!<br/><br/>
               </p>
               </div>
           </div>

@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods7.png'
 
 const number = 7
 
-const firstTopic = ['Comprar eletrodomésticos e equipamentos mais eficientes','Reduzir o consumo de energia','Trocar lâmpadas incandescentes por fluorescentes ou LEDs','Desligar o computador e outros equipamentos na modalidade stand by','Melhorar a eficiência energética']
-const secondTopic = ['Desenvolver linhas de pesquisas em torno da utilização de energias renováveis','Promover concursos internos ou locais que estimulem o debate','Sensibilização sobre meio ambiante e a importância do papel de cada um','Estimular o uso de aplicativos como whatsApp para redução de consumo de energia']
-const thirdTopic = ['Divulgar as orientações sobre o consumo consciente','Dimensionar correntamente os cabos e fios para os equipamentos','Analisar o contrato de fornecimento com a concessionária de distribuição','Verificar a Modalidade Tarifária']
-const fourthTopic = ['Usar lâmpadas, luminárias e equipamentos auxiliares de grande eficiência luminosa na iluminção pública','Utilizar equipamentos eficientes(lâmpadas, equipamentos de ar condicionado, motores, etc) nos prédios públicos','Orientar o quadro funcional sobre o consumo consciente']
+const firstTopic = ['•	SEMPRE APAGUE A LUZ QUANDO VOCÊ SAIR DE UM AMBIENTE.','•	DESLIGUE OS APARELHOS QUE NÃO ESTIVER USANDO.','•	PEÇA PARA SUA FAMÍLIA TROCAR AS LÂMPADAS DA SUA CASA POR LÂMPADAS QUE CONSOMEM MENOS ENERGIA, COMO AS DE LED.','•	NÃO TOME BANHO DEMORADO.','•	SÓ SOLTE PIPA EM LUGARES BEM LONGE DE POSTES E FIOS.']
+const secondTopic = ['•	COMPRAR ELETRODOMÉSTICOS E EQUIPAMENTOS MAIS EFICIENTES.','•	DESLIGAR O COMPUTADOR E OUTROS EQUIPAMENTOS QUE NÃO ESTIVER SENDO USADO.','•	MELHORAR A EFICIÊNCIA ENERGÉTICA DE EMPRESAS, RESIDÊNCIAS E ILUMINAÇÃO PÚBLICA.','•	DESENVOLVER LINHAS DE PESQUISAS EM TORNO DA UTILIZAÇÃO DE ENERGIAS RENOVÁVEIS E EFICIÊNCIA ENERGÉTICA.','•	ESTIMULAR O USO DE APLICATIVOS PARA MONITORAR E REDUZIR O CONSUMO DE ENERGIA.','•	FAZER CAMPANHAS DE ORIENTAÇÃO SOBRE O CONSUMO CONSCIENTE.','•	DIMENSIONAR CORRETAMENTE OS CABOS E FIOS PARA OS EQUIPAMENTOS.','•	ANALISAR O CONTRATO DE FORNECIMENTO COM A CONCESSIONÁRIA DE DISTRIBUIÇÃO.','•	USAR LÂMPADAS, LUMINÁRIAS E EQUIPAMENTOS AUXILIARES DE GRANDE EFICIÊNCIA LUMINOSA NA ILUMINÇÃO PÚBLICA.','•	UTILIZAR EQUIPAMENTOS EFICIENTES (LÂMPADAS, EQUIPAMENTOS DE AR CONDICIONADO, MOTORES, ETC) NOS PRÉDIOS PÚBLICOS.','•	PROMOVER DEBATE NAS ESCOLAS E COMUNIDADES SOBRE O CONSUMO CONSCIENTE.']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_7 extends Component {
   render() {
@@ -19,9 +19,14 @@ export default class Ods_7 extends Component {
             <div className="ods-grande angulo-7"/>
             <div className="texto-ods texto-color-7">
               <h1>7 - Energia Limpa e Acessível</h1>
-              <p>Sabia que como a água, a energia também é muito importante para a vida? 
-              E você sabia que existem vários tipos de fontes de energia? Tem as de fonte não renovável, como o petróleo, o carvão mineral e o gás natural. E as de fontes renováveis, que são aquelas geradas por recursos que nunca acabam, como a água, o vento, o sol e o mar. 
-              E existe também a energia gerada por biomassa, que é produzida pela queima de materiais como a cana-de-açúcar. Sabia que o álcool que é usado nos carros é um tipo de energia de biomassa?
+              <p>
+                SABIA QUE COMO A ÁGUA, A ENERGIA TAMBÉM É MUITO
+                IMPORTANTE PARA A VIDA? <br/><br/>
+                E VOCÊ SABIA QUE EXISTEM VÁRIOS TIPOS DE FONTES DE ENERGIA? TEM AS DE FONTE NÃO RENOVÁVEL, COMO O PETRÓLEO, O CARVÃO MINERAL
+                E O GÁS NATURAL. E AS DE FONTES RENOVÁVEIS, QUE SÃO AQUELAS
+                GERADAS POR RECURSOS QUE NUNCA ACABAM, COMO A ÁGUA, O VENTO, O SOL E O MAR. <br/>
+                E EXISTE TAMBÉM A ENERGIA GERADA POR BIOMASSA, QUE É PRODUZIDA PELA QUEIMA DE MATERIAIS COMO A CANA-DE-AÇÚCAR. SABIA QUE O
+                ÁLCOOL QUE É USADO NOS CARROS É UM TIPO DE ENERGIA DE BIOMASSA?
               </p>
               </div>
           </div>

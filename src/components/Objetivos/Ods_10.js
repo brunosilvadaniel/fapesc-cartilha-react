@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods10.png'
 
 const number = 10
 
-const firstTopic = ['Ensinar em casa cidadania e solidariedade para os filhos','Doar alimentos, roupas e outros bens para a população pobre','Destinar Imposto devido para Projetos Sociais - Pessoas Física']
-const secondTopic = ['Garantir a igualdade de oportunidade para as pessoas','Adotar as plataformas da ONU: Pacto Global e PRME','Promover o voluntariado corporativo','Implantar programas de carreiras e salário justos','Patrocinar a educação de jovens que vivem na periferia','Aumentar o Investimento Social Privado','Destinar impostos para Projetos Sociais - Pessoas Jurídica']
-const thirdTopic = ['Participar como voluntariado em Projetos Sociais','Desenvolver pesquisas e estudos sobre a realidade social']
-const fourthTopic = ['Investir na infraestrutura das periferias','Recuperar as estradas do seu municipio','Realizar campanhas de melhor uso de nossas estradas, parques academias ao ar livre e demais instalações de equipamentos públicos','Promover a Gestão Participativa','Incluir mulheres e idosos na era digital','Promover os direitos dos imigrantes e de outras minorias']
+const firstTopic = ['•	TRATE AS PESSOAS COM RESPEITO','•	DOE SUAS ROUPAS E BRINQUEDOS QUE NÃO USA MAIS','•	CONVERSE COM SUA FAMÍLIA PARA AJUDAR AS PESSOAS MAISPOBRES']
+const secondTopic =['•	ENSINAR SOBRE CIDADANIA E SOLIDARIEDADE PARA TODOS.','•	DOAR ALIMENTOS, ROUPAS E OUTROS BENS PARA A POPULAÇÃO POBRE.','•	DESTINAR IMPOSTO DEVIDO PARA PROJETOS SOCIAIS.','•	GARANTIR A IGUALDADE DE OPORTUNIDADE PARA AS PESSOAS.','•	PROMOVER O VOLUNTARIADO CORPORATIVO.','•	IMPLANTAR PROGRAMAS DE CARREIRAS E SALÁRIO JUSTOS.','•	PATROCINAR A EDUCAÇÃO DE JOVENS MENOS FAVORECIDOS ECONOMICAMENTE.','•	AUMENTAR O INVESTIMENTO SOCIAL PRIVADO.','•	PARTICIPAR COMO VOLUNTARIADO EM PROJETOS SOCIAIS.','•	DESENVOLVER PESQUISAS E ESTUDOS SOBRE A REALIDADE SOCIAL.','•	INVESTIR NA INFRAESTRUTURA DAS COMUNIDADES MENOS FAVORECIDAS.','•	CRIAS POLÍTICAS E PROGRAMAS QUE VISEM A REDUÇÃO DAS DESIGUALDADES. ','•	PROMOVER OS DIREITOS DOS IMIGRANTES E DE OUTRAS MINORIAS']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_10 extends Component {
   render() {
@@ -19,9 +19,12 @@ export default class Ods_10 extends Component {
             <div className="ods-grande angulo-10"/>
             <div className="texto-ods texto-color-10">
               <h1>10 - Redução das Desigualdades</h1>
-              <p>Vamos fazer de conta que toda a população da sua cidade são 10 pessoas. 1 pessoa representa a população mais rica e uma outra pessoa representa a população mais pobre. A desigualdade existe porque a pessoa mais rica tem sozinha praticamente toda a riqueza somada das outras. 
-              E sabia que a desigualdade não é só entre as pessoas? É entre os países também. Existem poucos países muito ricos e muitos países muito pobres.
-              Reduzir as desigualdades irá tirar muitas pessoas da pobreza e melhorar as condições de vida de todos.
+              <p>
+                VOCÊ SABE O QUE É DESIGUALDADE? <br/> <br/>
+                VAMOS FAZER DE CONTA QUE TODA A POPULAÇÃO DA SUA CIDADE SÃO 10 PESSOAS. 1 PESSOA REPRESENTA A POPULAÇÃO MAIS RICA E UMA OUTRA PESSOA REPRESENTA A POPULAÇÃO MAIS POBRE. A DESIGUALDADE
+                EXISTE PORQUE A PESSOA MAIS RICA TEM SOZINHA PRATICAMENTE TODA A RIQUEZA SOMADA DAS OUTRAS.<br/><br/>
+                E SABIA QUE A DESIGUALDADE NÃO É SÓ ENTRE AS PESSOAS? É ENTRE OS PAÍSES TAMBÉM. EXISTEM POUCOS PAÍSES MUITO RICOS E MUITOS PAÍSES MUITO POBRES.<br/><br/>
+                REDUZIR AS DESIGUALDADES IRÁ TIRAR MUITAS PESSOAS DA POBREZA E MELHORAR AS CONDIÇÕES DE VIDA DE TODOS.
               </p>
               </div>
           </div>

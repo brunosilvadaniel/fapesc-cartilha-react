@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods6.png'
 
 const number = 6
 
-const firstTopic = ['Reusar a água sempre que possível, mas cuidando de sua preservação e aplicação que é restita','Conhecer a origem da água, os processos de tratamento e distribuição, e destinação final depois de usada.','Reparar vazamentos ou comunicar a empresa responsável.','Calcular a Pegada Hídrica de produtos e serviços para uma escolha consciente, pricipalmente pensando na idéia de rejeitar']
-const secondTopic = ['Implatar programas de racionalização do uso da água.']
-const thirdTopic = ['Repensar o uso: racionalizar sempre que possível hábitos de consumo no cotidiano.','Reaproveitar a água da chuva','Estimular o uso de aplicativos como whatsApp para redução de consumo']
-const fourthTopic = ['Promover permanentemente debate sobre o consumo consciente da água.','Tratar sobre sua aplicação na agricultura, indústria e demais setores da economia.','Preservar ou revitalizar todo o sistema hídrico(rios e nascentes)']
+const firstTopic = ['•	ECONOMIZE ÁGUA','•	NÃO ESCOVE OS DENTES COM A TORNEIRA ABERTA','•	NA HORA DO BANHO, EVITE DEIXAR O CHUVEIRO ABERTO ENQUANTO SE ENSABOA E LIGUE-O APENAS QUANDO FOR SE ENXAGUAR','•	FALE PARA OS SEUS PAIS PARA LAVAR A CALÇADA OU O CARRO COM BALDE','•	NÃO JOGUE LIXO NO CHÃO']
+const secondTopic = ['•	REPARAR VAZAMENTOS DE ÁGUA NAS RESIDÊNCIAS','•	COMUNICAR A EMPRESA RESPONSÁVEL PELO ABASTENCIMENTO DE ÁGUA SEMPRE QUE TIVER VAZAMENTO NAS RUAS.','•	IMPLANTAR PROGRAMAS DE RACIONALIZAÇÃO DO USO DA ÁGUA.','•	REPENSAR O USO: RACIONALIZAR SEMPRE QUE POSSÍVEL HÁBITOS DE CONSUMO NO COTIDIANO.','•	REAPROVEITAR A ÁGUA DA CHUVA','•	PROMOVER PERMANENTEMENTE DEBATE SOBRE O CONSUMO CONSCIENTE DA ÁGUA.','•	DISCUTIR COM A SOCIEDADE O USO DA ÁGUA NA AGRICULTURA, INDÚSTRIA E DEMAIS SETORES DA ECONOMIA.','•	PRESERVAR OU REVITALIZAR TODO O SISTEMA HÍDRICO (RIOS E NASCENTES) DA REGIÃO.']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_6 extends Component {
   render() {
@@ -19,9 +19,16 @@ export default class Ods_6 extends Component {
             <div className="ods-grande angulo-6"/>
             <div className="texto-ods texto-color-6">
               <h1>6 - Água Potavel e Saniamento</h1>
-              <p>Você sabia que a água é muito importante para a sobrevivência de todos os seres vivos. E sabia que o nosso planeta é quase todinho coberto de água?
-              Isso mesmo, 70% do planeta é água. Mas nem toda essa água é própria para o consumo. Somente 2,5% de toda a água é doce e a maioria dela se encontra em regiões de difícil acesso, como geleiras.
-              Este objetivo também tem metas sobre o saneamento básico e proteção dos rios e nascentes. Isto é, diz que é importante ter esgoto tratado, acabar com a poluição dos rios, dos lagos e de lagoas, que são justamente de onde se tira a água que vai para as torneiras das nossas casas. Todas a água utilizada no processo de extração de carvão mineral passa por um a Estação de Tratamento de Efluentes, que após tratada pode ser reutilizada no processo produtivo ou descartada no meio ambiente.
+              <p>
+                VOCÊ SABIA QUE A ÁGUA É MUITO IMPORTANTE PARA A SOBREVIVÊNCIA DE TODOS OS SERES VIVOS. E SABIA QUE O NOSSO PLANETA É QUASE
+                TODINHO COBERTO DE ÁGUA?<br/><br/>
+                ISSO MESMO, 70% DO PLANETA É ÁGUA. MAS NEM TODA ESSA ÁGUA É
+                PRÓPRIA PARA O CONSUMO. SOMENTE 2,5% DE TODA A ÁGUA É DOCE E A
+                MAIORIA DELA SE ENCONTRA EM REGIÕES DE DIFÍCIL ACESSO, COMO
+                GELEIRAS.<br/><br/>
+                ESTE OBJETIVO TAMBÉM TEM METAS SOBRE O SANEAMENTO BÁSICO E PROTEÇÃO DOS RIOS E NASCENTES. ISTO É, DIZ QUE É IMPORTANTE
+                TER ESGOTO TRATADO, ACABAR COM A POLUIÇÃO DOS RIOS, DOS LAGOS E DE LAGOAS, QUE SÃO JUSTAMENTE DE ONDE SE TIRA A ÁGUA QUE VAI
+                PARA AS TORNEIRAS DAS NOSSAS CASAS.<br/><br/>
               </p>
               </div>
           </div>

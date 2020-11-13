@@ -6,9 +6,9 @@ import OdsIcon from '../../assets/resize-icons/ods12.png'
 
 const number = 12
 
-const firstTopic = ['Doar alimentos e reduzir o desperdício','Reduzir o uso de embalagens','Evirar a troca de celulares frequentemente','Utilizar sacola de pano para as compras','Optar por produtos com refil']
-const secondTopic = ['Ensinar ler rótulos dos alimentos, principalmente escolhendo os alimentos com menos sódio, gordura totais e saturadas, carboidratos e outros elementos que em execesoo são nocivos a saúde','Promover a educação financeira para reduzir o endividamento da populção','Promover oficinas de aproveitamento de materias para confecção de artesanato'] 
-const thirdTopic = ['Participar de programas de mobilização coletiva para estímulo à reciclagem e reutilização de metariais','Realizar ações de sensibilização para a diminuição do consumo e separação de resíduos(4Rs - Reduzir, reutilizar, reciclar e recuperar)','Adotar os princípios do Pacto Global','Implantar a logística reversa','Conhecer e respeitar o código dos consumidor','Reduzir o uso de agrotóxicos no plantio de alimentos','Reduzir o consumo de copinhos plásticos na empresa'] 
+const firstTopic = ['•	REDUZA A QUANTIDADE DE LIXO QUE VOCÊ GERA.','•	SEPARE O LIXO PARA RECICLAGEM.','•	NÃO DESPERDICE COMIDA, ÁGUA E ENERGIA.','•	REUTILIZE POTES E GARRAFAS, VOCÊ PODE USAR PARA GUARDAR COISAS OU ATÉ MESMO COMO VASOS.','•	PENSE MUITO ANTES DE COMPRAR OU PEDIR PARA SEUS PAIS COMPRAR ALGO. PENSE SE VOCÊ REALMENTE PRECISA DISSO.','•	COMPARTILHE COM SEUS AMIGOS OS LIVROS QUE VOCÊ JÁ LEU OU OS BRINQUEDOS QUE JÁ NÃO QUER BRINCAR MAIS.','•	APROVEITE CASCAS DE FRUTAS E LEGUMES COMO ADUBO PARA AS PLANTAS']
+const secondTopic = ['•	DOAR ALIMENTOS E REDUZIR O DESPERDÍCIO.','•	REDUZIR O USO DE EMBALAGENS.','•	REAPROVEITAR ALIMENTOS O MÁXIMO QUE FOR POSSÍVEL.','•	DESCARTAR OS RESÍDUOS DE FORMA CORRETA.','•	PROMOVER OFICINAS DE APROVEITAMENTO DE MATERIAIS PARA CONFECÇÃO DE ARTESANATO.','•	PARTICIPAR DE PROGRAMAS DE MOBILIZAÇÃO COLETIVA PARA ESTÍMULO À RECICLAGEM E REUTILIZAÇÃO DE MATERIAIS.','•	REALIZAR AÇÕES DE SENSIBILIZAÇÃO PARA A DIMINUIÇÃO DO CONSUMO E SEPARAÇÃO DE RESÍDUOS (3RS – REDUZIR, REUTILIZAR E RECICLAR).','•	IMPLANTAR A LOGÍSTICA REVERSA NAS EMPRESAS.','•	CONHECER E RESPEITAR O CÓDIGO DO CONSUMIDOR.','•	IMPLEMENTAR A COLETA SELETIVA NOS MUNICÍPIOS'] 
+const thirdTopic = [] 
 const fourthTopic = []
 
 export default class Ods_12 extends Component {
@@ -19,9 +19,11 @@ export default class Ods_12 extends Component {
             <div className="ods-grande angulo-12"/>
             <div className="texto-ods texto-color-12">
               <h1>12 - Consumo e Produção Responsaveis</h1>
-              <p>É usar tudo o que precisamos sem desperdiçar ou de forma que não produza mais lixo. É consumir somente aquilo que realmente precisamos.
-              Isso é muito sério. Se as pessoas não mudarem urgentemente o seu jeito de consumir as coisas, no ano de 2050 vamos precisar arranjar mais 2 planetas igualzinhos ao nosso para continuarmos a ter alimentos, água, energia, roupas e tudo mais que for preciso para a nossa vida.
-              Você sabe que não existe mais dois planetas, então o que é preciso fazer para isso não acontecer? Podemos começar usando os 3 r’s: reduzir, reutilizar e reciclar.
+              <p>  
+                VOCÊ SABE O QUE É CONSUMO CONSCIENTE? <br/> <br/>
+                É USAR TUDO O QUE PRECISAMOS SEM DESPERDIÇAR OU DE FORMA QUE NÃO PRODUZA MAIS LIXO. É CONSUMIR SOMENTE AQUILO QUE REALMENTE PRECISAMOS.<br/> <br/>
+                ISSO É MUITO SÉRIO. SE AS PESSOAS NÃO MUDAREM URGENTEMENTE O SEU JEITO DE CONSUMIR AS COISAS, NO ANO DE 2050 VAMOS PRECISAR ARRANJAR MAIS 2 PLANETAS IGUALZINHOS AO NOSSO PARA CONTINUARMOS A TER ALIMENTOS, ÁGUA, ENERGIA, ROUPAS E TUDO MAIS QUE FOR PRECISO PARA A NOSSA VIDA.<br/> <br/>
+                VOCÊ SABE QUE NÃO EXISTE MAIS DOIS PLANETAS, ENTÃO O QUE É PRECISO FAZER PARA ISSO NÃO ACONTECER? PODEMOS COMEÇAR USANDO OS 3 R’S: REDUZIR, REUTILIZAR E RECICLAR.<br/> <br/>
               </p>
               </div>
           </div>

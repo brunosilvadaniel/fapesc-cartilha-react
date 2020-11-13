@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods11.png'
 
 const number = 11
 
-const firstTopic = ['Participar de conselhos de segurança nas Cidades','Proteger o patrimônio cultural do município (igreja, monumentos e outros)','Reduzir o uso de automóvel, pegar carona solidária, bicicleta e outros meios de transportes','Promover a criação ou a manutenção das associações de bairros']
-const secondTopic = ['Realizar campanhas sobre trânsito seguro nas escolas e universidades','Apoiar iniciativas na implementação de práticas ambientais ustentáveis','Disseminar o Estatuto das Cidades e o Plano Diretor do município','Adotar os Princípios da Educação Empresarial Responsável - PRME']
-const thirdTopic = ['Comprar a matéria prima de locais mais próximos da planta industrial','Instalar novas unidades da empresa em municípios de baixo IDH']
-const fourthTopic = ['Aumentar a acessibilidade dos idosos aos equipamentos públicos','Promover a cidadania nas comunidades','Aumentar a destinação de impostos para projetos sociais','Desenvolver projetos visando a regularização fundiária','Melhorar a infraestrutura das regiões metropolitanas','Estrutara programas que mantenham o homem no campo','Estimular o uso de aplicativos como whatsApp para mapear os locais de maior ocorrência de acidentes de trânsito, de assltos e outros']
+const firstTopic = ['•	ANDE DE BICICLETA, OU SKATE OU PATINETE. MAS, NÃO SE ESQUEÇA DE USAR CAPACETE E PROTEGER SEUS JOELHOS E COTOVELOS.','•	SE TIVER UMA PRAÇA PERTO DA SUA CASA, BRINQUE NELA SEMPRE QUE PUDER.','•	SE A PRAÇA NÃO ESTIVER LIMPA OU NÃO TIVER BRINQUEDOS, CONVERSE COM SEUS VIZINHOS PARA JUNTOS LIMPAREM A PRAÇA E SE POSSÍVEL CONSERTAR OS BRINQUEDOS.','•	SE EXISTIR, VISITE OS MUSEUS DA SUA CIDADE OU PRÓXIMAS.','•	PREFIRA PASSEAR DE TRANSPORTE PÚBLICO E COLETIVO']
+const secondTopic = ['•	PARTICIPAR DE CONSELHOS DE SEGURANÇA NAS CIDADES','•	PROTEGER O PATRIMÔNIO CULTURAL DO MUNICÍPIO.','•	REDUZIR O USO DE AUTOMÓVEL, PEGAR CARONA SOLIDÁRIA, BICICLETA E OUTROS MEIOS DE TRANSPORTES','•	PROMOVER A CRIAÇÃO OU A MANUTENÇÃO DAS ASSOCIAÇÕES DE BAIRROS','•	REALIZAR CAMPANHAS NAS ESCOLAS E UNIVERSIDADES SOBRE TRÂNSITO SEGURO.','•	APOIAR INICIATIVAS NA IMPLEMENTAÇÃO DE PRÁTICAS AMBIENTAIS USTENTÁVEIS.','•	DISSEMINAR O ESTATUTO DAS CIDADES E O PLANO DIRETOR DO MUNICÍPIO.','•	AUMENTAR A ACESSIBILIDADE DAS PESSOAS AOS EQUIPAMENTOS PÚBLICOS.','•	PROMOVER A CIDADANIA NAS COMUNIDADES.','•	AUMENTAR A DESTINAÇÃO DE IMPOSTOS PARA PROJETOS SOCIAIS.','•	DESENVOLVER PROGRAMAS PARA A MELHORIA DA MOBILIDADE URBANA.','•	DESENVOLVER PROJETOS VISANDO A REGULARIZAÇÃO FUNDIÁRIA','•	MELHORAR A INFRAESTRUTURA DAS REGIÕES METROPOLITANAS','•	ESTRUTARAR PROGRAMAS QUE MANTENHAM O HOMEM NO CAMPO.']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_11 extends Component {
   render() {
@@ -19,10 +19,12 @@ export default class Ods_11 extends Component {
             <div className="ods-grande angulo-11"/>
             <div className="texto-ods texto-color-11">
               <h1>11 - Cidades e Comunidades Sustentáveis</h1>
-              <p>Para que as cidades sejam sustentáveis, a agenda 2030 defende que as pessoas vivam em lugares seguros e com acesso a serviços básicos, no mínimo!
-              As cidades precisam ter praças e parques para que todos possam se divertir e ter abastecimento de água e energia em todas as casas. De preferência energias de fontes renováveis. Coleta de lixo e tratamento do esgoto também são fundamentais.
-              Precisam ter  transporte seguro e que não polua o meio ambiente. Ter espaços para bicicletas e patinetes é uma excelente ideia!
-              É muito importante também preservar a história da cidade, seus monumentos, sua cultura e folclore. Sem esquecer de preservar os recursos naturais. As cidades sustentáveis tem muito verde para todos os lados, que ajuda a despoluir o ar.
+              <p>
+                PARA QUE AS CIDADES SEJAM SUSTENTÁVEIS, A AGENDA 2030 DEFENDE
+                QUE AS PESSOAS VIVAM EM LUGARES SEGUROS E COM ACESSO A SERVIÇOS BÁSICOS, NO MÍNIMO! <br/><br/>
+                AS CIDADES PRECISAM TER PRAÇAS E PARQUES PARA QUE TODOS POSSAM SE DIVERTIR E TER ABASTECIMENTO DE ÁGUA E ENERGIA EM TODAS AS CASAS. DE PREFERÊNCIA ENERGIAS DE FONTES RENOVÁVEIS. COLETA DE LIXO E TRATAMENTO DO ESGOTO TAMBÉM SÃO FUNDAMENTAIS.<br/><br/>
+                PRECISAM TER TRANSPORTE SEGURO E QUE NÃO POLUA O MEIO AMBIENTE. TER ESPAÇOS PARA BICICLETAS E PATINETES É UMA EXCELENTE IDEIA! <br/><br/>
+                É MUITO IMPORTANTE TAMBÉM PRESERVAR A HISTÓRIA DA CIDADE, SEUS MONUMENTOS, SUA CULTURA E FOLCLORE. SEM ESQUECER DE PRESERVAR OS RECURSOS NATURAIS. AS CIDADES SUSTENTÁVEIS TÊM MUITO VERDE PARA TODOS OS LADOS, QUE AJUDA A DESPOLUIR O AR.<br/><br/>
               </p>
               </div>
           </div>

@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods16.png'
 
 const number = 16
 
-const firstTopic = ['Ser voluntário!','Realizar palestra sobre o relacionamento entre pais e filhos visando aumentar o vinculo familiar','Participar de espaços como Conselho Tutelar e Conselhor de Direitos de sua comunidade','Realizar camapanhas de cultura da paz','Ligar para 180 e denunciar caos de violência contra a mulher']
-const secondTopic = ['Criar brigadas para fomentar o voluntariado na Defesa Civil','Promover palestra sobre a questão da violência no trânsito, doméstia e outras']
-const thirdTopic = ['Realizar atividades de prevenção à violência contra ciranças e adolescentes','Realizar campanhas de sensibilização e combate á violência doméstica, abuso sexual e tráfico humano','Realizar Juizados Mirins e outras ações de Educação as Leis']
-const fourthTopic = ['Realizar camapanhas de desarmamento','Criar aplicativos de áreas inseguras no seu município','Combatenre a corrupção em todos os níveis','Promover o acesso a espaço cultural e artístico para a população jovem','Apoiar o funcionamento ou instalação de um Centro de Ação Voluntária na sua cidade']
+const firstTopic = ['•	RESPEITE AS PESSOAS QUE PENSAM E ACREDITAM EM COISAS DIFERENTES DAS SUAS','•	SE ALGUÉM TE ABORRECER, NÃO BRIGUE. TENTE CONVERSAR COM QUEM TE ABORRECEU OU CONTE PARA OS SEUS PAIS OU PROFESSORES','•	SE VOCÊ VER ALGUÉM FAZENDO CHACOTA OU AMEAÇANDO UM AMIGO OU COLEGA, CONVERSE COM OS SEUS PAIS E PROFESSORES','•	FIQUE LONGE DAS DROGAS, A MAIORIA DAS MORTES VIOLENTAS ESTÃO DIRETAMENTE LIGADAS AO USO DE DROGAS.']
+const secondTopic = ['•	REALIZAR PALESTRA SOBRE O RELACIONAMENTOS, PREVENÇÃO A VIOLÊNCIA E CUIDADOS NO TRÂNSITO.','•	PARTICIPAR DE ESPAÇOS COMO CONSELHO TUTELAR E CONSELHOS DE DIREITOS NO SEU MUNICÍPIO','•	REALIZAR CAMAPANHAS DE CULTURA DA PAZ, SENSIBILIZAÇÃO E COMBATE Á VIOLÊNCIA DOMÉSTICA, ABUSO SEXUAL E TRÁFICO HUMANO','•	DENUNCIAR CAOS DE VIOLÊNCIA CONTRA A MULHER, IDOSOS E CRIANÇAS','•	COMBATER A CORRUPÇÃO EM TODOS OS NÍVEIS','•	PROMOVER O ACESSO A ESPAÇO CULTURAL E ARTÍSTICO PARA A POPULAÇÃO JOVEM.','•	APOIAR O FUNCIONAMENTO OU INSTALAÇÃO DE UM CENTRO DE AÇÃO VOLUNTÁRIA NA SUA CIDADE.','•	FORTALECER AS INSTITUIÇÕES EFICAZES, RESPONSÁVEIS E TRANSPARENTES ','•	IMPLANTAR SISTEMAS DE MONITORAMENTO DOS GASTOS E INVESTIMENTOS PÚBLICOS, COMO OS PORTAIS DA TRANSPARÊNCIA E OBSERVATÓRIOS SOCIAIS','•	COMBATER O CRIME ORGANIZADO E REDUZIR O TRÁFICO DE ARMAS ILEGAIS.','•	PROMOVER E FAZER CUMPRIR LEIS E POLÍTICAS NÃO DISCRIMINATÓRIAS PARA O DESENVOLVIMENTO SUSTENTÁVEL']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_16 extends Component {
   render() {
@@ -19,11 +19,13 @@ export default class Ods_16 extends Component {
             <div className="ods-grande angulo-16"/>
             <div className="texto-ods texto-color-16">
               <h1>16 - Paz, Justiça e Instituições eficazes</h1>
-              <p>Você sabia que as brigas começam porque as pessoas não se entendem ou não gostam de quem tem ideias diferentes?
-              Algumas pessoas ficam fazendo algumas brincadeiras chatas com as outras só porque são diferentes, mas nós sabemos que ser diferente é muito legal. 
-              E quando essas pessoas são líderes de países e não respeitam como outros países cuidam do seu povo, elas brigam e surgem as guerras. 
-              Já imaginou que chato seria se todo mundo fosse igual? Por exemplo, se todo mundo torcesse para o mesmo time, não existiriam os campeonatos como a copa do mundo e as olimpíadas.
-              Por isso precisamos sempre aceitar e respeitar as diferenças para vivermos num mundo em paz!
+              <p>
+                VOCÊ SABIA QUE AS BRIGAS COMEÇAM PORQUE AS PESSOAS NÃO SE ENTENDEM OU NÃO GOSTAM DE QUEM TEM IDEIAS DIFERENTES? <br/><br/>
+                ALGUMAS PESSOAS FICAM FAZENDO ALGUMAS BRINCADEIRAS CHATAS COM AS OUTRAS SÓ PORQUE SÃO DIFERENTES, MAS NÓS SABEMOS
+                QUE SER DIFERENTE É MUITO LEGAL.<br/><br/>
+                E QUANDO ESSAS PESSOAS SÃO LÍDERES DE PAÍSES E NÃO RESPEITAM COMO OUTROS PAÍSES CUIDAM DO SEU POVO, ELAS BRIGAM E SURGEM AS GUERRAS.<br/><br/>
+                JÁ IMAGINOU QUE CHATO SERIA SE TODO MUNDO FOSSE IGUAL? POR EXEMPLO, SE TODO MUNDO TORCESSE PARA O MESMO TIME, NÃO EXISTIRIAM OS CAMPEONATOS COMO A COPA DO MUNDO E AS OLIMPÍADAS.<br/><br/>
+                POR ISSO PRECISAMOS SEMPRE ACEITAR E RESPEITAR AS DIFERENÇAS PARA VIVERMOS NUM MUNDO EM PAZ!
               </p>
               </div>
           </div>

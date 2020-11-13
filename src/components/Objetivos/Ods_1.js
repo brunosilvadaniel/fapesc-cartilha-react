@@ -7,10 +7,10 @@ import './Styles.css'
 
 const number = 1
 
-const firstTopic = ['Incluir pessoas de baixa renda no mercado de trabalho','Capacitar as pessoas para a sua profissionalização','Ser solidário e voluntário em causas socias','Aliar-se a projetos socias e apoiar as organizações não convernamentais']
-const secondTopic = ['Participar de ações de extensão universitaría','Participar do projeto Rondon','Fomentar os universitários nas causas socias nas comunidades carentes']
-const thirdTopic = ['Ofertar cursos de empreendedorismo','Fomentar os negócios socias, negócios verdes, solidários e a economia inclusiva','Criar tecnologias mais acessíveis às populações mais pobres']
-const fourthTopic = ['Apoiar a geração alternativa de renda','Fomentar o Microempreendedor Individual - MEI','Empoderar as mulheres que vivem com menos de US$ 1,25 por dia','Buscar fontes de recursos para o desenvolvimento do municipio','Desenvolver novas tecnologias apropriadas e serviços financeiros, incluindo microfinanças']
+const firstTopic = ['DOAR OS BRINQUEDOS E ROUPAS QUE NÃO USA MAIS. ','ECONOMIZAR O SEU DINHEIRO, A SUA MESADA.']
+const secondTopic = ['INCLUIR PESSOAS DE BAIXA RENDA NO MERCADO DE TRABALHO E APOIAR A GERAÇÃO ALTERNATIVA DE RENDA.','•	CAPACITAR AS PESSOAS PARA A SUA PROFISSIONALIZAÇÃO.','•	OFERTAR CURSOS DE EMPREENDEDORISMO.','•	FOMENTAR O MICROEMPREENDEDOR INDIVIDUAL – MEI.','•	FOMENTAR OS NEGÓCIOS SOCIAS, NEGÓCIOS VERDES, SOLIDÁRIOS E A ECONOMIA INCLUSIVA.','•	CRIAR TECNOLOGIAS MAIS ACESSÍVEIS ÀS POPULAÇÕES MAIS POBRES.','•	BUSCAR FONTES DE RECURSOS PARA O DESENVOLVIMENTO DO MUNICIPIO.','•	CONHECER AS CAUSAS DA POBREZA NA SUA COMUNIDADE, NO PAÍS E NO MUNDO.','•	SER SOLIDÁRIO E VOLUNTÁRIO EM CAUSAS SOCIAS.','•	ALIAR-SE A PROJETOS SOCIAS E APOIAR AS ORGANIZAÇÕES NÃO GONVERNAMENTAIS.','•	DOAR ALIMENTOS PARA OS MAIS NECESSITADOS.','•	PARTICIPAR DE AÇÕES E PROJETOS NO MUNICÍPIO.']
+const thirdTopic = []
+const fourthTopic = []
 
 const texto = 'texto'
 
@@ -24,8 +24,8 @@ export default class Ods_1 extends Component {
             <div className="texto-ods texto-color-1">
               <h1>1 - Erradicação da Pobreza</h1>
               <p>
-                O ODS 1 busca acabar com a pobreza extrema para todas as pessoas e em todos os lugares. existem milhares de crianças sem condições de se alimentar todos os dias, sem ter água, sem ter uma boa casa para morar e sem poder brincar porque tem que trabalhar.
-                para que o ods 1 seja alcançado, as pessoas, as empresas e os políticos precisam trabalhar juntos, para melhorar a vida das crianças, dos adolescentes, dos adultos e dos idosos para que todos tenham acesso aos seus direitos e vivam bem.
+              O ODS 1 BUSCA ACABAR COM A POBREZA EXTREMA PARA TODAS AS PESSOAS E EM TODOS OS LUGARES. EXISTEM MILHARES DE CRIANÇAS SEM CONDIÇÕES DE SE ALIMENTAR TODOS OS DIAS, SEM TER ÁGUA, SEM TER UMA BOA CASA PARA MORAR E SEM PODER BRINCAR PORQUE TEM QUE TRABALHAR.<br/> 
+              PARA QUE O ODS 1 SEJA ALCANÇADO, AS PESSOAS, AS EMPRESAS E O PODER PÚBLICO PRECISAM TRABALHAR JUNTOS, PARA MELHORAR A VIDA DAS CRIANÇAS, DOS ADOLESCENTES, DOS ADULTOS E DOS IDOSOS PARA QUE TODOS TENHAM ACESSO AOS SEUS DIREITOS E VIVAM BEM.
               </p>
               </div>
           </div>

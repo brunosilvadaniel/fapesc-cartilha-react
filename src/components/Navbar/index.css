@@ -39,6 +39,16 @@
 		rgba(209, 209, 209, 0.28335084033613445) 100%
 	);
 }
+.Container-logo{
+	width: 20vh;
+	
+}
+.Container-logo img{
+	margin-top: 30px;
+	position: fixed;
+	z-index: 6;
+	width: 18%;
+}
 @media(min-widht: 769px){
 	.button-nav {
 		padding: 0.5em 0.25px;

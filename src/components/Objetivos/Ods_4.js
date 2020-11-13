@@ -6,10 +6,10 @@ import OdsIcon from '../../assets/resize-icons/ods4.png'
 
 const number = 4
 
-const firstTopic = ['Realizar palestras sobre palestras sobre os ODS','Organizar gincanas de voluntariado e cidadania','Apoiar iniciativas de inclusão de PcD nas escolas e universidades','Organizar concursos musicais em escolas com diversos temas', 'Proporcionar intercâmbios com outros países','Apoiar iniciativas de inclusão','Aumentar a acessibilidade nas universidades']
-const secondTopic = ['Apoiar programas de educação, capacitação e inclusão digital de crianças e jovens para futura inserção no mercado de trabalho','Jovem aprendiz na sua empresa']
-const thirdTopic = ['Identificar alguns dos desafios socioeconômicos que afteam as matrículas no ensino fundamental 1 e apoiar as comunidades a lidarem com estes desafios','Melhorar os equipamentos das escolas básicas e fornecer material didático e de leitura','Reduzir a evasão escolar Implementar programas de formação de professores de escolas públicas','Construir e manter bibliotecas, videotecas ou brinquedotecas na comunidade, escolas ou organizações socias']
-const fourthTopic = ['Valorizar a educação de seus filhos','Acompanhar o desenvolvimento dos filhos']
+const firstTopic = ['•	NADA DE FALTAR AULA POR PREGUIÇA.','•	ESTUDE SEMPRE E FAÇA SEUS DEVERES DE CASA.','•	DOE OS LIVROS QUE NÃO PRECISAR MAIS OU OS QUE JÁ LEU.','•	AJUDAR SEU COLEGA A ESTUDAR.',]
+const secondTopic = ['•	REALIZAR PALESTRAS SOBRE OS ODS NAS ESCOLAS E COMUNIDADES.','•	ORGANIZAR GINCANAS DE VOLUNTARIADO E CIDADANIA.','•	AMPLIAR INICIATIVAS DE INCLUSÃO E ACESSIBILIDADE NAS ESCOLAS E UNIVERSIDADES.','•	PROPORCIONAR INTERCÂMBIOS COM OUTROS PAÍSES.','•	APOIAR PROGRAMAS DE EDUCAÇÃO, CAPACITAÇÃO E INCLUSÃO DIGITAL DE CRIANÇAS E JOVENS PARA FUTURA INSERÇÃO NO MERCADO DE TRABALHO.','•	REALIZAR O PROGRAMA JOVEM APRENDIZ.','•	MELHORAR OS EQUIPAMENTOS DAS ESCOLAS BÁSICAS','•	FORNECER MATERIAL DIDÁTICO E DE LEITURA','•	REDUZIR A EVASÃO ESCOLAR','•	IMPLEMENTAR PROGRAMAS DE FORMAÇÃO DE PROFESSORES DE ESCOLAS PÚBLICAS','•	CONSTRUIR E MANTER BIBLIOTECAS, VIDEOTECAS OU BRINQUEDOTECAS NA COMUNIDADE, ESCOLAS OU ORGANIZAÇÕES SOCIAS','•	VALORIZAR A EDUCAÇÃO E ACOMPANHAR O DESENVOLVIMENTO DE SEUS FILHOS']
+const thirdTopic = []
+const fourthTopic = []
 
 export default class Ods_4 extends Component {
   render() {
@@ -19,9 +19,10 @@ export default class Ods_4 extends Component {
             <div className="ods-grande angulo-4"/>
             <div className="texto-ods texto-color-4">
               <h1>4 - Educação de Qualidade</h1>
-              <p>Como estão seus estudos? Como é a sua escola? Tem materiais, espaços e professores para todos os alunos? A escola fica perto ou longe da sua casa?
-              Parecem perguntas bobas, mas não são. Sabia que muitas crianças não podem ir pra aula pois seu país está em guerra? Ou porque a escola fica muito longe e não tem transporte? Acredita que existem escolas que não tem nem onde as crianças sentarem e nem merenda?
-              A educação é um direito de todos e os governos devem criar possibilidades para que todas as crianças, jovens e adultos tenham oportunidades de aprender sempre. As empresas mineradoras investem 1% do seu faturamento na SATC. Com a SATC, o setor carbonífero oportuniza ensino de qualidade para pessoas de baixa renda, através da disponibilização de bolsas de estudo.
+              <p>COMO ESTÃO SEUS ESTUDOS? COMO É A SUA ESCOLA? TEM MATERIAIS, ESPAÇOS E PROFESSORES PARA TODOS OS ALUNOS? A ESCOLA FICA PERTO OU LONGE DA SUA CASA?<br/><br/>
+                PARECEM PERGUNTAS BOBAS, MAS NÃO SÃO. SABIA QUE MUITAS CRIANÇAS NÃO PODEM IR PARA A AULA POIS SEU PAÍS ESTÁ EM GUERRA? OU PORQUE A ESCOLA FICA MUITO LONGE DE SUA CASA E NÃO TEM TRANSPORTE? ACREDITA
+                QUE EXISTEM ESCOLAS QUE NÃO TEM NEM ONDE AS CRIANÇAS SENTAREM E NEM MERENDA?
+                A EDUCAÇÃO É UM DIREITO DE TODOS E OS GOVERNOS DEVEM CRIAR POSSIBILIDADES PARA QUE TODAS AS CRIANÇAS, JOVENS E ADULTOS TENHAM OPORTUNIDADES DE APRENDER SEMPRE.
               </p>
               </div>
           </div>

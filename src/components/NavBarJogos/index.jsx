@@ -27,7 +27,7 @@ export default class NavBarJogos extends Component{
                 <h1 className="jogo-titulo">Quebra-Cabeça</h1>
               </NavLink>
               <NavLink to="/" className="Jogo jogo-fundo-verde" style={{textDecoration:"none"}}>
-                <h1 className="jogo-titulo ">Quarto jogo</h1>
+                <h1 className="jogo-titulo ">Caça-Palavras</h1>
               </NavLink>
 
               </>

@@ -68,28 +68,28 @@ export default function AlertDialog(props) {
         aria-describedby="alert-dialog-description"
       >
         <div className="wrap-dialog-header">
-          <div id="alert-dialog-title" className="dialog-title" >O Que Você pode fazer para ajudar</div>
+          <div id="alert-dialog-title" className="dialog-title" >O QUE PODE SER FEITO PARA AJUDAR?</div>
           <img className="img-text" src={props.odsIcon} alt="Ods-Icon"style={{backgroundColor: styles[props.number - 1].color}}/>
         </div>
         <DialogContent > 
           <DialogContentText id="alert-dialog-description" >
             <div className="dialog-text">
-            <h1>NAS CASAS E COMUNIDADES</h1>
+            <h1>CRIANÇAS</h1>
             <ul>
               {generateLists(props.firstTopic)}
             </ul>
-            <h1>NAS ESCOLAS E UNIVERSIDADES</h1>
+            <h1>COMUNIDADE EM GERAL E PODER PÚBLICO</h1>
             <ul>
               {generateLists(props.secondTopic)}
             </ul>
-            <h1>TRABALHO</h1>
+            {/* <h1>TRABALHO</h1>
             <ul>
               {generateLists(props.thirdTopic)}
             </ul>
             <h1>NOS MUNICIPIOS</h1>
             <ul>
               {generateLists(props.fourthTopic)}
-            </ul>
+            </ul> */}
             </div>
           </DialogContentText>
         </DialogContent>
