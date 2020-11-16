@@ -50,7 +50,7 @@ export default class Baloes extends Component{
 
   render(){
     let width = window.innerWidth;
-    if (width> 768){
+    if (width> 1200){
     return(
       <div className="baloes">
         <div className="ceu">           
@@ -76,16 +76,15 @@ export default class Baloes extends Component{
           <div className="container-mobile">
             <div className="boy-mobile-container">
               <div className="ceu">
-              <div className="grama-fundo"/>
-          
+                <div className="grama-fundo"/>
                 <div className="boy-mobile"> 
-                <ImageMapper  src={Boy}/>
+                  <ImageMapper  src={Boy}/>
                 </div>
               </div>
-    
             </div>
             <div className="girl-mobile-container">        
-              <div className="ceu">              
+              <div className="ceu">
+                <div className="grama-escorida-b"/>
                 <div className="grama-fundo"/>
                 <div className="girl-mobile">
                   <ImageMapper src={Girl}/>

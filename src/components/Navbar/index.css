@@ -1,4 +1,3 @@
-
 .menu-area {
 	background-color: #0398DA;
 	display: block;
@@ -8,7 +7,6 @@
 	text-align: center;
 	position: fixed;
 	z-index: 5;
-
 }
 .menu{
 	display: inline;
@@ -18,7 +16,6 @@
 	height: 100%;
 	justify-content: space-around;
 }
-
 .button-nav {
 	height: 100%;
 	display: inline-block;
@@ -29,7 +26,7 @@
 	font-size: 30px;
 	border: none;
 	margin: 0px 1em;
-	text-align: center;
+	vertical-align: middle;
 }
 .button-nav:hover {
 	color: white;
@@ -40,25 +37,84 @@
 	);
 }
 .Container-logo{
-	width: 20vh;
-	
+	width: 20vh	;
 }
 .Container-logo img{
+	display: flex;
 	margin-top: 30px;
-	position: fixed;
+	position: fixed;	
 	z-index: 6;
 	width: 18%;
+	align-items: flex-start;
+	margin-left: 50px;
+	margin-top: 6vh;
 }
-@media(min-widht: 769px){
-	.button-nav {
-		padding: 0.5em 0.25px;
-		font-weight: 500;
-		font-size: 30px;
-		border: none;
-		margin: 0px 1em;
-	}
+@media (max-width: 1600px){
+	.Container-logo img{
+		margin-top: 7vh;
+		position: fixed;
+		z-index: 6;
+		width: 18%;
 
+	}
+	.button-nav{
+		max-width: 30vh;
+		font-size: 22px;
+		vertical-align: middle;
+	}
 }
+@media (max-width: 1000px){
+	.Container-logo img{
+		margin-top: 7vh;
+		position: fixed;
+		z-index: 6;
+		width: 18%;
+		
+	}
+	.button-nav{
+		max-width: 17vh;
+		font-size: 22px;
+		padding: 15px;
+		vertical-align: middle;
+
+	}
+}
+@media (max-width: 970px){
+	.menu-area{
+		height: 10vh;
+	}
+	.Container-logo img{
+		margin-top: 7vh;
+		position: fixed;
+		z-index: 6;
+		width: 18%;
+
+	}
+	.button-nav{
+		max-width: 30vh;
+		font-size: 18px;
+	}
+}
+@media (max-width: 768px){
+	.button-nav{
+		max-width: 30vh;
+		font-size: 16px;
+	}
+}
+@media (max-width: 668px){
+	.button-nav{
+		max-width: 30vh;
+		font-size: 10px;
+	}
+	.menu-area{
+		height: 7vh;
+	}
+	.Container-logo img{
+		margin-top: 5vh;
+		margin-left: 30px;
+	}
+}
+
 /* @media (min-width: 768px) {
 	.menu-area {
 		height: 8rem;
