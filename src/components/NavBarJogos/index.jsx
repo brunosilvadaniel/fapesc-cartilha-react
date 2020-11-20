@@ -26,8 +26,8 @@ export default class NavBarJogos extends Component{
                 <NavLink to="/puzzlednd" className="Jogo jogo-fundo-laranja-claro" style={{textDecoration:"none"}}>
                   <h1 className="jogo-titulo">Quebra-Cabeça</h1>
                 </NavLink>
-                <NavLink to="/" className="Jogo jogo-fundo-verde" style={{textDecoration:"none"}}>
-                  <h1 className="jogo-titulo ">Caça-Palavras</h1>
+                <NavLink to="/Velha" className="Jogo jogo-fundo-verde" style={{textDecoration:"none"}}>
+                  <h1 className="jogo-titulo ">Jogo da Velha</h1>
               </NavLink>
               </>
               {/* </BrowserRouter> */}

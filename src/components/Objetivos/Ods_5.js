@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import './Styles.css'
 import AlertDialog from './Dialog'
-import OdsIcon from '../../assets/resize-icons/ods5.png'
+import OdsIcon from '../../assets/new-icons/ods5.png'
 
 const number = 5
 

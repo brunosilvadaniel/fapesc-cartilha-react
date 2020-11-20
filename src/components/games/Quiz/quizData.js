@@ -34,6 +34,30 @@ export const quizData = [
     question:"O Movimento ODS Santa Catarina tem como missão facilitar a incorporação dos Objetivos de Desenvolvimento Sustentável (ODS) no dia a dia das pessoas e na prática das organizações catarinenses. Como você pode contribuir com isso?",
     options: ['Sendo voluntário do Movimento','Auxiliando na implantação dos ODS na sua escola/empresa','Colaborando com projetos sociais e ambientais','Todas as alternativas estão corretas'],
     answer: 'Todas as alternativas estão corretas'
+  },
+  {
+    id: 6,
+    question:"A FUNDAÇÃO DE AMPARO A PESQUISA DE SANTA CATARINA (FAPESC) TEM COMO MISSÃO PROMOVER O ECOSSISTEMA CATARINENSE DE CIÊNCIA, TECNOLOGIA E INOVAÇÃO POR MEIO DE FOMENTO E DA INTEGRAÇÃO DE SEUS AGENTES. A MISSÃO DA FAPESC TEM RELAÇÃO COM QUAL ODS",
+    options: ['ODS 1 – ERRADICAÇÃO DA POBREZA','ODS 4 -  EDUCAÇÃO DE QUALIDADE','ODS 8 -  TRABALHO DESCENTE E CRESCIMENTO ECONÔMICO','ODS 9 – INDÚSTRIA, INOVAÇÃO E INFRAESTRUTURA'],
+    answer: 'ODS 9 – INDÚSTRIA, INOVAÇÃO E INFRAESTRUTURA'
+  },
+  {
+    id: 7,
+    question:"O QUE É AGENDA 2030?",
+    options: ['UMA AGENDA DE COMPROMISSOS PARA O ANO DE 2030?','PLANO DE AÇÃO GLOBAL QUE REÚNE OS 17 ODS E SUAS METAS','DOCUMENTO QUE REÚNE O COMPROMISSO DOS GOVERNADORES DOS ESTADOS BRASILEIROS'],
+    answer: 'PLANO DE AÇÃO GLOBAL QUE REÚNE OS 17 ODS E SUAS METAS'
+  },
+  {
+    id: 8,
+    question:"QUAL ODS FALA SOBRE ERRADICAR TODAS AS FORMAS DE DISCRIMINAÇÃO E EMPODERAR MULHERES E MENINAS?",
+    options: ['ODS 1 – ERRADICAÇÃO DA POBREZA','ODS 10 – REDUÇÃO DAS DESIGUALDADES','ODS 5 – IGUALDADE DE GÊNERO','ODS 3 – SAÚDE E BEM ESTAR'],
+    answer: 'ODS 5 – IGUALDADE DE GÊNERO'
+  },
+  {
+    id: 9,
+    question:"O ODS 12 TRATA DO CONSUMO CONSCIENTE. COMO PODEMOS FAZER ISSO?",
+    options: ['TROCANDO TODOS OS NOSSOS OBJETOS SEMPRE QUE UM NOVO DO MESMO TIPO FOR LANÇADO.','USAR A MANGUEIRA PARA LAVAR O QUINTAL E O CARRO.','COMPARTILHANDO COM OS AMIGOS OS LIVROS QUE VOCÊ JÁ LEU OU OS BRINQUEDOS QUE JÁ NÃO QUER BRINCAR MAIS.','AUMENTAR O CONSUMO DE MATERIAIS NÃO RECICLÁVEIS'],
+    answer: 'COMPARTILHANDO COM OS AMIGOS OS LIVROS QUE VOCÊ JÁ LEU OU OS BRINQUEDOS QUE JÁ NÃO QUER BRINCAR MAIS.'
   }
 ]
 

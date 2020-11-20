@@ -7,6 +7,7 @@ import Baloes from './components/Baloes'
 import NavBarJogos from './components/NavBarJogos'
 import Sobre from './components/Sobre/index'
 import VoceSabia from './components/VoceSabia/index'
+import ExtrasFooter from './components/ExtrasFooter/index'
 
 import MemoryGame from './components/games/memoryGame/memoryGame'
 
@@ -14,6 +15,8 @@ import Quiz from './components/games/Quiz/index'
 
 import PuzzleDnd from './components/games/DndPuzzle/index.js'
 import PuzzleDnd2 from './components/games/DndPuzzle2/index.js'
+
+import Velha from './components/games/jogo-da-velha/index'
 
 import Ods1 from './components/Objetivos/Ods_1'
 import Ods2 from './components/Objetivos/Ods_2'
@@ -33,7 +36,6 @@ import Ods15 from './components/Objetivos/Ods_15'
 import Ods16 from './components/Objetivos/Ods_16'
 import Ods17 from './components/Objetivos/Ods_17'
 
-
 export default function Routes(){
     return (
       <>
@@ -48,6 +50,7 @@ export default function Routes(){
               <Header/>
               <Baloes/>
               <NavBarJogos/>
+              <ExtrasFooter/>
               <Footer/>
             </div>
             }></Route>
@@ -208,6 +211,8 @@ export default function Routes(){
             <Route path="/quiz" component={Quiz} />
             <Route path="/puzzlednd" component={PuzzleDnd2} />
             <Route path="/jogodamemoria3" component={MemoryGame} />
+            <Route path="/Velha" component={Velha} />
+      
             <Redirect from="*" to="/Home" />
           </Switch>
         </BrowserRouter>

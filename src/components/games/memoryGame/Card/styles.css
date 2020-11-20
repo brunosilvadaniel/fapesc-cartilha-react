@@ -5,6 +5,7 @@
   border-radius: 10px;
   background-color: #800080;
   margin-bottom: 18px;
+  margin-right: 10px;
 }
 .flip-container.flipped.flipper {
   transform: rotate(180);
