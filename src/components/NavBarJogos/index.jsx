@@ -61,7 +61,7 @@ return(
               <h1 className="jogo-titulo-mobile ">Quiz</h1>
             </NavLink>
   
-            <NavLink to="/puzzlednd" className="Jogo jogo-fundo-laranja-claro" style={{textDecoration:"none"}}>
+            <NavLink to="/puzzle" className="Jogo jogo-fundo-laranja-claro" style={{textDecoration:"none"}}>
               <h1 className="jogo-titulo-mobile">Quebra-Cabeça</h1>
             </NavLink>
             <NavLink to="/Velha" className="Jogo jogo-fundo-verde" style={{textDecoration:"none"}}>
