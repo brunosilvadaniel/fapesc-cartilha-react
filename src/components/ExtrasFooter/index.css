@@ -1,7 +1,10 @@
-.extras-footer{
 
-}
 .extras-container{
+  display: flex;
+  flex-direction: row;
+  margin: 80px 50px;
+}
+.extras-container-mobile{
   display: flex;
   flex-direction: row;
   margin: 80px 50px;
@@ -10,9 +13,24 @@
   width: 50%;
   margin: 0px 20px;
 }
+.extras-container-mobile div{
+  width: 50%;
+  margin: 0px 20px;
+}
 .extras-container h1{
   font-size: 20px;
 }
+.extras-container-mobile h1{
+  font-size: 30px;
+}
 .extras-container p{
   font-size: 16px;
+}
+.extras-container-mobile p{
+  font-size: 26px;
+}
+@media(max-width: 900px){
+  .extras-container p{
+    font-size: 24px;
+  }
 }

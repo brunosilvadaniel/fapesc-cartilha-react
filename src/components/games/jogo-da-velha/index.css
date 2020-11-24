@@ -50,7 +50,7 @@
           height: 33.333%;
           margin: 0 auto;
           box-sizing: border-box;
-          border: .25px solid white;
+          border: .25px groove black;
           display: flex;
           align-items: center;
           justify-content: center;

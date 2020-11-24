@@ -23,7 +23,6 @@ ul li{
   height: 100%;
 }
 .quiz-div{
-  margin-top: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +32,12 @@ ul li{
   font-family: 'Segoe UI',;
   font-size: 18px;
   background-color: #C7F3FF;
-  height: 47em;
+  height: 100%;
 }
 .quiz-div h2{
   text-align: center;
   margin: 0 auto;
+  margin-top: 10vh;
   font-size: 24px;
   text-shadow: 1px 1px black;
   max-width: 30%; 
@@ -147,6 +147,7 @@ ul li{
   .quiz-div h2{
     font-size: 18px;
     max-width: 60%;
+    margin-top: 100px;
   }
   .gabarito{
     display: flex;

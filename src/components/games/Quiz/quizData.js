@@ -1,39 +1,39 @@
 export const quizData = [
   {
     id: 0,
-    question:"Para que ocorra o desenvolvimento sustável é preciso haver interação entre os setores?",
-    options: ['Ambiental, econômico e saúde','Ambiental, social e habitacional','Social, ambiental e econômico'],
-    answer: 'Social, ambiental e econômico'
+    question:"PARA QUE OCORRA O DESENVOLVIMENTO SUSTENTÁVEL É PRECISO HAVER INTERAÇÃO ENTRE OS SETORES?",
+    options: ['AMBIENTAL, ECONÔMICO E SAÚDE','AMBIENTAL, SOCIAL E HABITACIONAL','SOCIAL, AMBIENTAL E ECONÔMICO'],
+    answer: 'SOCIAL, AMBIENTAL E ECONÔMICO'
   },
   {
     id: 1,
-    question:"Em que ano foi estabelecida a Agenda 2030 com os Objetivos de Desenvolvimento Sustentável (ODS)?",
+    question:"EM QUE ANO FOI ESTABELECIDA A AGENDA 2030 COM OS OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL (ODS)?",
     options: ['2017','2013','2015','2010'],
     answer: '2015'
   },
   {
     id: 2,
-    question:"Quantos Objetivos compõe os ODS?",
+    question:"QUANTOS OBJETIVOS COMPÕE OS ODS?",
     options: ['12','17','8','15'],
     answer: '17'
   },
   {
     id: 3,
-    question:"A água utilizada no beneficiamento do carvão mineral passa por um processo de tratamento e pode ser reutilizada novamente no lavador da mina. Essa atividade está relacionada com qual ODS?",
-    options: ['ODS 12 - Consumo e produção responsável','ODS 6 - Água potável e saneamento','ODS 14 – Vida na água','ODS 11 – Cidades e comunidades sustentáveis'],
-    answer: 'ODS 6 - Água potável e saneamento'
+    question:"A ÁGUA UTILIZADA NO BENEFICIAMENTO DO CARVÃO MINERAL PASSA POR UM PROCESSO DE TRATAMENTO E PODE SER REUTILIZADA NOVAMENTE NO LAVADOR DA MINA. ESSA ATIVIDADE ESTÁ RELACIONADA COM QUAL ODS?",
+    options: ['ODS 12 - CONSUMO E PRODUÇÃO RESPONSÁVEL','ODS 6 - ÁGUA POTÁVEL E SANEAMENTO','ODS 14 – VIDA NA ÁGUA','ODS 11 – CIDADES E COMUNIDADES SUSTENTÁVEIS'],
+    answer: 'ODS 6 - ÁGUA POTÁVEL E SANEAMENTO'
   },
   {
     id: 4,
-    question:"Uma das formas de colaborar com a preservação do meio ambiente é reduzir a produção de resíduos. O que você pode fazer para colaborar com isso?",
-    options: ['Comprando produtos com embalagens não recicláveis','Reutilizado materiais e embalagens, sempre que possível','Colaborando com a coleta seletiva','Praticando os 3 Rs – Reduzir, Reutilizar e Reciclar'],
-    answer: 'Praticando os 3 Rs – Reduzir, Reutilizar e Reciclar'
+    question:"UMA DAS FORMAS DE COLABORAR COM A PRESERVAÇÃO DO MEIO AMBIENTE É REDUZIR A PRODUÇÃO DE RESÍDUOS. O QUE VOCÊ PODE FAZER PARA COLABORAR COM ISSO?",
+    options: ['COMPRANDO PRODUTOS COM EMBALAGENS NÃO RECICLÁVEIS','REUTILIZADO MATERIAIS E EMBALAGENS, SEMPRE QUE POSSÍVEL','COLABORANDO COM A COLETA SELETIVA','PRATICANDO OS 3 RS – REDUZIR, REUTILIZAR E RECICLAR'],
+    answer: 'PRATICANDO OS 3 RS – REDUZIR, REUTILIZAR E RECICLAR'
   },
   {
     id: 5,
-    question:"O Movimento ODS Santa Catarina tem como missão facilitar a incorporação dos Objetivos de Desenvolvimento Sustentável (ODS) no dia a dia das pessoas e na prática das organizações catarinenses. Como você pode contribuir com isso?",
-    options: ['Sendo voluntário do Movimento','Auxiliando na implantação dos ODS na sua escola/empresa','Colaborando com projetos sociais e ambientais','Todas as alternativas estão corretas'],
-    answer: 'Todas as alternativas estão corretas'
+    question:"O MOVIMENTO ODS SANTA CATARINA TEM COMO MISSÃO FACILITAR A INCORPORAÇÃO DOS OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL (ODS) NO DIA A DIA DAS PESSOAS E NA PRÁTICA DAS ORGANIZAÇÕES CATARINENSES. COMO VOCÊ PODE CONTRIBUIR COM ISSO?",
+    options: ['SENDO VOLUNTÁRIO DO MOVIMENTO','AUXILIANDO NA IMPLANTAÇÃO DOS ODS NA SUA ESCOLA/EMPRESA','COLABORANDO COM PROJETOS SOCIAIS E AMBIENTAIS','TODAS AS ALTERNATIVAS ESTÃO CORRETAS'],
+    answer: 'TODAS AS ALTERNATIVAS ESTÃO CORRETAS'
   },
   {
     id: 6,

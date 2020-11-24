@@ -90,7 +90,7 @@ class JogoVelha extends React.Component {
                   })}
               </div>
               <div className="reset">
-                  <button onClick={() => this.handleReset()} className="resetButton">RESET</button>
+                  <button onClick={() => this.handleReset()} className="resetButton">Jogar Novamente</button>
               </div>
           </div>
           <Footer/>

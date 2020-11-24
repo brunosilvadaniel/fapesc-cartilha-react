@@ -144,7 +144,8 @@
   z-index: 7;
   
   -webkit-user-select: none;
-  user-select: none;
+	user-select: none;
+	background-color: #C7F3FF;
 }
 
 #menuToggle a
@@ -278,6 +279,7 @@
 {
   transform: none;
 }
+
 
 /* @media (min-width: 768px) {
 	.menu-area {

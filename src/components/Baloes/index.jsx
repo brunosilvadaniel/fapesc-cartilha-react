@@ -78,6 +78,15 @@ export default class Baloes extends Component{
     console.log(area.name)
   }
 
+  zoomOut(){
+    var viewport = document.querySelector('meta[name="viewport"]');
+    if ( viewport ) {
+      viewport.content = "initial-scale=0";
+    }
+  }
+  componentDidMount(){
+    this.zoomOut();
+  }
   render(){
     let width = window.innerWidth;
     if (width> 1200){
@@ -85,7 +94,7 @@ export default class Baloes extends Component{
       <div className="baloes">
         <div className="ceu">           
           <div className="container">
-            <h1 className="ods-text-open">Você conhece <br/>as ODS ?</h1>
+            <h1 className="ods-text-open">Você conhece <br/>os ODS ?</h1>
             <ImageMapper  src={this.URL} map={this.MAP} 	
             onMouseEnter={area => this.enterArea(area)}
             onMouseLeave={area => this.leaveArea(area)}
@@ -103,7 +112,7 @@ export default class Baloes extends Component{
         {/* <div className="ceu">            */}
           <div className="container-mobile">
             <div className="boy-mobile-container">
-              <h1 className="ods-text-open">Você conhece <br/>as ODS ?</h1>
+              <h1 className="ods-text-open-mobile">Você conhece <br/>os ODS ?</h1>
               <div className="ceu-mobile-boy">
                 
                 <div className="grama-fundo"/>

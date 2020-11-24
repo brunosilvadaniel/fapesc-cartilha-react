@@ -56,6 +56,7 @@ export default function AlertDialog(props) {
     }
   }
 
+
   return (
     <div>
       <button  className={styles[props.number - 1].button}onClick={handleClickOpen}>

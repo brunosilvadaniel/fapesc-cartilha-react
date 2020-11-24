@@ -28,6 +28,13 @@
   margin: 0 auto;
   align-content: space-between;
 }
+.Jogos-mobile{
+  display: flex;
+  width: 70%;
+  height: 50%;
+  /* background: purple; */
+  margin: 0 auto;
+}
 .Jogo{
   display: flex;
   width: 24.1%; /* width: 24.1%; */
@@ -44,6 +51,13 @@
   font-weight: 500px;
   color: #ffffff;
   font-size: 40px;
+  text-align: left;
+  margin-left: 15px;
+}
+.jogo-titulo-mobile{
+  font-weight: 500px;
+  color: #ffffff;
+  font-size: 50px;
   text-align: left;
   margin-left: 15px;
 }
@@ -72,4 +86,5 @@
 .jogo-fundo-verde{
   background: #3F8144;
 }
+
 

@@ -13,6 +13,8 @@ import MemoryGame from './components/games/memoryGame/memoryGame'
 
 import Quiz from './components/games/Quiz/index'
 
+import PuzzleGame from './components/games/puzzle/index'
+
 import PuzzleDnd from './components/games/DndPuzzle/index.js'
 import PuzzleDnd2 from './components/games/DndPuzzle2/index.js'
 
@@ -212,6 +214,7 @@ export default function Routes(){
             <Route path="/puzzlednd" component={PuzzleDnd2} />
             <Route path="/jogodamemoria3" component={MemoryGame} />
             <Route path="/Velha" component={Velha} />
+            <Route path="/Puzzle" component={PuzzleGame} />
       
             <Redirect from="*" to="/Home" />
           </Switch>

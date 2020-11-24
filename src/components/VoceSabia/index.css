@@ -34,7 +34,7 @@
   justify-content: center;
 }
 .container-ods-mais h2{
-
+  margin-bottom: 50px;
   font-size: 20px;
 }
 @media(max-width:768px){

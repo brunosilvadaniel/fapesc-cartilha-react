@@ -1,7 +1,7 @@
 .baloes{
-  margin-top: 8em;
   display: flex;
   flex-direction: column;
+  background-color: #C7F3FF;
 }
 .ceu{
   display: flex;
@@ -19,6 +19,13 @@
   text-align: center;
   padding: 15px;
   color: #E32738;
+}
+.ods-text-open-mobile{
+  text-align: center;
+  padding: 15px;
+  color: #E32738;
+  font-weight: 500px;
+  font-size: 90px;
 }
 .ceu-mobile-boy{
   display: flex;
@@ -206,16 +213,16 @@
 .grama-escorida-b{
   margin: 0 auto;
   width: 100%;
-  height: 30vh;
+  height: 250px;
   background-image: url("../../assets/images/Grama-escaldada.png");
   background-position: center bottom;
   margin-bottom: 150px;
 }
+.ods-text-open{
+  margin-top: 5em;
+}
 @media (max-width: 970px){
   
-.baloes{
-  margin-top: 0px;
-}
 .grama-fundo{
   width: 100%;
 }
@@ -229,9 +236,9 @@
     width: 1234px;
   }
   .baloes{
-    margin-top: 0px;
     width: 1234px;
   }
+  
 }
 
 @media (max-width: 768px){
@@ -239,14 +246,12 @@
     width: 1234px;
   }
   .baloes{
-    margin-top: 0px;
     width: 1234px;
   }
   .grama-fundo{
     width: 1234px;
   }
   .ods-text-open{
-    margin-top: 100px;
     font-weight: 500px;
     font-size: 90px;
   }
