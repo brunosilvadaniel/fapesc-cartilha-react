@@ -20,7 +20,8 @@ export default class Quiz extends Component {
        score: 0,
        disabled: true,
        showColors: false,
-       canSelect: true
+       canSelect: true,
+       reloadPage: true,
     } 
   } 
   
@@ -53,9 +54,19 @@ export default class Quiz extends Component {
   }
 
   componentDidMount(){
+    // this.refreshPage();
     this.loadQuiz();
     window.scrollTo(0,0);
-    
+    this.zoomOut();
+  }
+  refreshPage() {
+    const reloadPage = this.state
+    if(reloadPage){
+    this.setState({
+      reloadPage: false
+    })
+      window.location.reload();
+    }
   }
 
   checkAnswer = selectedAnswer =>{
@@ -84,6 +95,12 @@ export default class Quiz extends Component {
       this.setState({
         quizEnd: true
       })
+    }
+  }
+  zoomOut(){
+    var viewport = document.querySelector('meta[name="viewport"]');
+    if ( viewport ) {
+      viewport.content = "initial-scale=1";
     }
   }
   playAgain = () =>{

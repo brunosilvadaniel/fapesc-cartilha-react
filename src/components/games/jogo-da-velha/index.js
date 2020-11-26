@@ -84,7 +84,7 @@ class JogoVelha extends React.Component {
           <NavBar/>
           <div className="velha-container">
               {this.state.winner ? <h2 className="h2-winner">{`O vencedor é o ${this.state.currentTurn}`}</h2> : null}
-              <div className="board">
+              <div className="board-velha">
                   {this.state.board.map((cell, index) => {
                       return <div onClick={() => this.handleClick(index)} key={index} className="square"><p className="playerSymbol">{cell}</p></div>
                   })}

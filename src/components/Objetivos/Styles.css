@@ -428,7 +428,7 @@
    }
   .button-ods{
     padding: 4px;
-    font-size: 22px;
+    font-size: 20px;
   
   }
 }
@@ -440,6 +440,32 @@
     position: relative;
     min-height: 25px;  
     margin-bottom: 15px;
+  }
+  .dialog-title{
+    font-size: 18px;
+  }
+  .img-text{
+    width: 100px;
+    height: 100px;
+  }
+  .dialog-footer-number{
+    align-items: center;
+  }
+  .dialog-footer-number p{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .dialog-text ul{
+   padding: 0px;
+  }
+  .dialog-text ul li{
+    font-size: 14px;
+  }
+  .texto-ods p{
+    font-size: 20px;
+  }
+  .envolve-ods{
+    margin: 0 auto;
   }
 
 }

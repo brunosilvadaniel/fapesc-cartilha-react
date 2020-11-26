@@ -37,7 +37,7 @@ ul li{
 .quiz-div h2{
   text-align: center;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 9rem;
   font-size: 24px;
   text-shadow: 1px 1px black;
   max-width: 30%; 
@@ -147,7 +147,7 @@ ul li{
   .quiz-div h2{
     font-size: 18px;
     max-width: 60%;
-    margin-top: 100px;
+    margin-top: 11vh;
   }
   .gabarito{
     display: flex;
@@ -159,6 +159,7 @@ ul li{
     width: 80%;
     text-align: center;
     margin-bottom: 30px;
+    padding: 20px;
   }
   .pergunta{
     font-size: 18px;
@@ -177,5 +178,12 @@ ul li{
   .quiz-page{
     min-width: 350px;
   }
-
+  .pontuacao{
+    align-items: center;
+  }
+  .pontuacao h1{
+    font-size: 2rem;
+    text-align: center;
+    
+  }
 }

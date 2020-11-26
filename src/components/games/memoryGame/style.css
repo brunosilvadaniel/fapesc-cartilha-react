@@ -16,4 +16,17 @@
   margin-top: 200px;
   color: purple;
 }
+.cards{
+  margin-top: 9rem;
+  align-items: center;
+}
+@media(max-width: 768px){
+  .cards{
+    margin-top: 40px;
+  }
+  .wrap-game{
+    margin-top: 0px;
+  }
+
+}
 

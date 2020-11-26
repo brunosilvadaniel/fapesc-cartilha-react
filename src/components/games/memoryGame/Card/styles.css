@@ -35,3 +35,8 @@
 .front{
   transform: rotateY(0deg);
 }
+@media(max-width:768px){
+  /* .front{
+    object-fit: scale-down;
+  } */
+}
